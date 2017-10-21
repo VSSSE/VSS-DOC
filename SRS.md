@@ -1,4 +1,4 @@
-Name&gt;
+Team VSS MovieTunes
 
 Software Requirements Specification
 
@@ -70,32 +70,34 @@ Table of Contents
 1.
   1. 1.1Purpose
 
-[Specify the purpose of this **SRS**. The **SRS** fully describes the external behavior of the application or subsystem identified. It also describes nonfunctional requirements, design constraints, and other factors necessary to provide a complete and comprehensive description of the requirements for the software.]
+The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the conponents of the system, their features, interfaces, and constraints and explain their purpose. 
 
 1.
   1. 1.2Scope
 
-[A brief description of the software application that the **SRS** applies to, the feature or other subsystem grouping, what Use-Case model(s) it is associated with, and anything else that is affected or influenced by this document.]
+This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the Overall Description (LINK)
 
 1.
   1. 1.3Definitions, Acronyms, and Abbreviations
 
-[This subsection provides the definitions of all terms, acronyms, and abbreviations required to properly interpret the **SRS**.  This information may be provided by reference to the project&#39;s Glossary.]
+- **SRS** Software Requirements Specification
+- **n/a** not applicable
+- **tbd** to be determined
 
 1.
   1. 1.4References
 
-[This subsection provides a complete list of all documents referenced elsewhere in the **SRS**.  Identify each document by title, report number if applicable, date, and publishing organization.  Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document.]
+tbd
 
 1.
   1. 1.5Overview
 
-[This subsection describes what the rest of the **SRS** contains and explains how the document is organized.]
+The remainder of this document contains the following: Product functionality is explained in the Overall Description section which also includes a use-case-diagram. Product requirements are detailed in the Requirements Specification section.
 
 1. 2.Overall Description
 
-[This section of the **SRS** describes the general factors that affect the product and its requirements.  This section does not state specific requirements.  Instead, it provides a background for those requirements, which are defined in detail in Section 3, and makes them easier to understand. Include such items as:
-
+MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in (LANGUAGE) using the (FRAMEWORK) framework, an Android app written in Java, and a web app written in Elm.
+DIAGRAM HERE
 • product perspective
 
 • product functions
