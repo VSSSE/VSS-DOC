@@ -63,14 +63,14 @@ Table of Contents
 
 [The introduction of the **Software Requirements Specification (SRS)** provides an overview of the entire **SRS**. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of the **SRS**.]
 
-[Note: The **SRS** document captures the complete software requirements for the system, or a portion of the system.  Following is a typical **SRS** outline for a project using only traditional, natural-language style requirements—with **no use-case modeling.  ** It captures all requirements in a single document, with applicable sections inserted from the Supplementary Specifications (which would no longer be needed).  For a template of an **SRS** using use-case modeling, which consists of a package containing Use Cases of the use-case model and applicable Supplementary Specifications and other supporting information, see rup\_srsuc.dot.]
+[Note: The **SRS** document captures the complete software requirements for the system, or a portion of the system.  Following is a typical **SRS** outline for a project using only traditional, natural-language style requirementsâ€”with **no use-case modeling.  ** It captures all requirements in a single document, with applicable sections inserted from the Supplementary Specifications (which would no longer be needed).  For a template of an **SRS** using use-case modeling, which consists of a package containing Use Cases of the use-case model and applicable Supplementary Specifications and other supporting information, see rup\_srsuc.dot.]
 
 [Many different arrangements of an **SRS** are possible.  Refer to [IEEE830-1998] for further elaboration of these explanations, as well as other options for **SRS** organization.]
 
 1.
   1. 1.1Purpose
 
-The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the conponents of the system, their features, interfaces, and constraints and explain their purpose. 
+The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the components of the system, their features, interfaces, and constraints and explain their purpose. 
 
 1.
   1. 1.2Scope
@@ -98,17 +98,17 @@ The remainder of this document contains the following: Product functionality is 
 
 MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in (LANGUAGE) using the (FRAMEWORK) framework, an Android app written in Java, and a web app written in Elm.
 DIAGRAM HERE
-• product perspective
+â€¢ product perspective
 
-• product functions
+â€¢ product functions
 
-•  user characteristics
+â€¢  user characteristics
 
-• constraints
+â€¢ constraints
 
-• assumptions and dependencies
+â€¢ assumptions and dependencies
 
-• requirements subsets]
+â€¢ requirements subsets]
 
 1. 3.Specific Requirements
 
@@ -122,12 +122,41 @@ DIAGRAM HERE
 Where application development tools, such as requirements tools, modeling tools, and the like, are employed to capture the functionality, this section of the document would refer to the availability of that data, indicating the location and name of the tool used to capture the data.]
 
 1.
-  1.
-    1. 3.1.1&lt;Functional Requirement One&gt;
+  1.3.1.1Enter a movie title
+    
+The user can enter a movie title into a text field.
 
 [The requirement description.]
 
 1.
+  1.3.1.2 Search for soundtracks
+    
+The user can press the "Search" button and get a list of soundtracks used in the movie.
+
+1.1.3.1.3 Choose a soundtrack
+    
+The user can choose one song from the list of the soundtracks.
+
+1. 3.1.4  Look up for similar songs
+
+The user can get a list of recommendations based on the song chosen.
+
+1. 3.1.5 Save recommendations
+
+The user can save the list of recommendations.
+
+1. 3.1.6 Enter a song title
+
+The user can enter a song title
+
+3.1.7 Search for movie titles the song was used in
+
+The user can look up corresponding movies.
+
+3.1.8 Choose language
+
+ The user can choose language
+
   1. 3.2Usability
 
 [This section includes all those requirements that affect usability. For example,
@@ -138,7 +167,13 @@ Where application development tools, such as requirements tools, modeling tools,
 
 1.
   1.
-    1. 3.2.1&lt;Usability Requirement One&gt;
+    1. 3.2.1 Training time
+    
+   We are going to create a self-explaining application so that users can quickly get acquainted with main features. A short description will be provided.
+    
+    1. 3.2.2 Language
+    
+   The application will be available in both German and English versions.
 
 [The requirement description goes here.]
 
@@ -147,16 +182,17 @@ Where application development tools, such as requirements tools, modeling tools,
 
 [Requirements for reliability of the system should be specified here. Some suggestions follow:
 
-- Availability—specify the percentage of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations, and so on.
-- Mean Time Between Failures (MTBF) — this is usually specified in hours, but it could also be specified in terms of days, months or years.
-- Mean Time To Repair (MTTR)—how long is the system allowed to be out of operation after it has failed?
-- Accuracy—specifies precision (resolution) and accuracy (by some known standard) that is required in the system&#39;s output.
-- Maximum Bugs or Defect Rate—usually expressed in terms of bugs per thousand lines of code (bugs/KLOC) or bugs per function-point( bugs/function-point).
-- Bugs or Defect Rate—categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a &quot;critical&quot; bug; for example, complete loss of data or a complete inability to use certain parts of the system&#39;s functionality.]
+- Availabilityâ€”specify the percentage of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations, and so on.
+- Mean Time Between Failures (MTBF) â€” this is usually specified in hours, but it could also be specified in terms of days, months or years.
+- Mean Time To Repair (MTTR)â€”how long is the system allowed to be out of operation after it has failed?
+- Accuracyâ€”specifies precision (resolution) and accuracy (by some known standard) that is required in the system&#39;s output.
+- Maximum Bugs or Defect Rateâ€”usually expressed in terms of bugs per thousand lines of code (bugs/KLOC) or bugs per function-point( bugs/function-point).
+- Bugs or Defect Rateâ€”categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a &quot;critical&quot; bug; for example, complete loss of data or a complete inability to use certain parts of the system&#39;s functionality.]
 
 1.
   1.
     1. 3.3.1&lt;Reliability Requirement One&gt;
+    tbd
 
 [The requirement description.]
 
@@ -195,7 +231,15 @@ Where application development tools, such as requirements tools, modeling tools,
 
 1.
   1.
-    1. 3.6.1&lt;Design Constraint One&gt;
+    3.6.1 Technologies
+    
+    We will use the following technologies:
+    
+    - Java and Android Studio for Android development
+    
+    - YouTrack
+    
+    - Git for version control 
 
 [The requirement description goes here.]
 
@@ -206,6 +250,8 @@ Where application development tools, such as requirements tools, modeling tools,
 
 1.
   1. 3.8Purchased Components
+  
+  n/a
 
 [This section describes any purchased components to be used with the system, any applicable licensing or usage restrictions, and any associated compatibility and interoperability or interface standards.]
 
@@ -217,6 +263,9 @@ Where application development tools, such as requirements tools, modeling tools,
 1.
   1.
     1. 3.9.1User Interfaces
+    Please consult the different use case descriptions for UI mockups (screenshots) and UI functionality descriptions:
+    
+    (tbd)
 
 [Describe the user interfaces that are to be implemented by the software.]
 
@@ -240,11 +289,13 @@ Where application development tools, such as requirements tools, modeling tools,
 
 1.
   1. 3.10Licensing Requirements
+  n/a
 
 [Defines any licensing enforcement requirements or other usage restriction requirements that are to be exhibited by the software.]
 
 1.
   1. 3.11Legal, Copyright, and Other Notices
+  n/a
 
 [This section describes any necessary legal disclaimers, warranties, copyright notices, patent notices, wordmark, trademark, or logo compliance issues for the software.]
 
@@ -254,6 +305,7 @@ Where application development tools, such as requirements tools, modeling tools,
 [This section describes by reference any applicable standard and the specific sections of any such standards which apply to the system being described. For example, this could include legal, quality and regulatory standards, industry standards for usability, interoperability, internationalization, operating system compliance, and so forth.]
 
 1. 4.Supporting Information
+tbd
 
 [The supporting information makes the **SRS** easier to use.  It includes:
 
