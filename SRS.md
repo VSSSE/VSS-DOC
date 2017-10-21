@@ -189,7 +189,7 @@ Where application development tools, such as requirements tools, modeling tools,
 [The requirement description goes here.]
 
 1.
-  1. 3.6Design Constraints
+  1. 3.6 Design Constraints
 
 [This section indicates any design constraints on the system being built. Design constraints represent design decisions that have been mandated and must be adhered to.  Examples include software languages, software process requirements, prescribed use of developmental tools, architectural and design constraints, purchased components, class libraries, and so on.]
 
