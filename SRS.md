@@ -83,7 +83,7 @@ This SRS applies to the entire MovieTunes project. MovieTunes is a online servic
 - **SRS** Software Requirements Specification
 - **n/a** not applicable
 - **tbd** to be determined
-
+- **MTTR** Mean Time to Recover
 1.
   1. 1.4References
 
@@ -137,13 +137,9 @@ The user can press the "Search" button and get the soundtrack used in the movie.
 
 The user can choose one song from the listed soundtrack.
 
-1. 3.1.4  Look up for similar songs
+1. 3.1.4  Look up similar songs
 
 After chosing a title, the user gets a list of recommendations based on the song chosen.
-
-1. 3.1.5 Save recommendations
-
-The user can save the list of recommendations.
 
 1. 3.1.6 Enter a song title
 
@@ -175,6 +171,23 @@ The user can look up corresponding movies.
 
 1.
   1. 3.3Reliability
+
+3.3.1 Server availability
+
+As the server hostig our application is out of our control, we cannot make precise statements of its uptime.
+
+3.3.2 MTTR
+
+If our application server crashes, we aim to keep recovery time below three days.
+
+3.3.3 Accuracy
+
+The system shall find the correct movie 95%+ of the time. Accuracy for recommendations is externalized and cannot be accounted for.
+
+3.3.4 System Availability
+
+The system is expected not to crash and to be available every time its host server is available. That said, we are bound by external API limitations. This may cause the system to be slow or even dysfunctional at times.
+
 
 [Requirements for reliability of the system should be specified here. Some suggestions follow:
 
