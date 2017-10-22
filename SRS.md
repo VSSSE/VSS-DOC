@@ -70,7 +70,7 @@ Table of Contents
 1.
   1. 1.1Purpose
 
-The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the components of the system, their features, interfaces, and constraints and explain their purpose. 
+The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the components of the system, their features, interfaces, and constraints and explain their purpose.
 
 1.
   1. 1.2Scope
@@ -123,23 +123,23 @@ Where application development tools, such as requirements tools, modeling tools,
 
 1.
   1.3.1.1Enter a movie title
-    
+
 The user can enter a movie title into a text field.
 
 [The requirement description.]
 
 1.
   1.3.1.2 Search for soundtracks
-    
-The user can press the "Search" button and get a list of soundtracks used in the movie.
 
-1.1.3.1.3 Choose a soundtrack
-    
-The user can choose one song from the list of the soundtracks.
+The user can press the "Search" button and get the soundtrack used in the movie.
+
+1.1.3.1.3 Choose a title
+
+The user can choose one song from the listed soundtrack.
 
 1. 3.1.4  Look up for similar songs
 
-The user can get a list of recommendations based on the song chosen.
+After chosing a title, the user gets a list of recommendations based on the song chosen.
 
 1. 3.1.5 Save recommendations
 
@@ -149,13 +149,9 @@ The user can save the list of recommendations.
 
 The user can enter a song title
 
-3.1.7 Search for movie titles the song was used in
+3.1.7 Search for movie soundtracks using the song
 
 The user can look up corresponding movies.
-
-3.1.8 Choose language
-
- The user can choose language
 
   1. 3.2Usability
 
@@ -168,12 +164,12 @@ The user can look up corresponding movies.
 1.
   1.
     1. 3.2.1 Training time
-    
-   We are going to create a self-explaining application so that users can quickly get acquainted with main features. A short description will be provided.
-    
+
+    Usage of this product is self-evident. Users are able to use the main features just by looking at the interface. A short description is provided.
+
     1. 3.2.2 Language
-    
-   The application will be available in both German and English versions.
+
+   The application will be available in English.
 
 [The requirement description goes here.]
 
@@ -232,14 +228,14 @@ The user can look up corresponding movies.
 1.
   1.
     3.6.1 Technologies
-    
+
     We will use the following technologies:
-    
+
     - Java and Android Studio for Android development
-    
+
     - YouTrack
-    
-    - Git for version control 
+
+    - Git for version control
 
 [The requirement description goes here.]
 
@@ -250,7 +246,7 @@ The user can look up corresponding movies.
 
 1.
   1. 3.8Purchased Components
-  
+
   n/a
 
 [This section describes any purchased components to be used with the system, any applicable licensing or usage restrictions, and any associated compatibility and interoperability or interface standards.]
@@ -264,7 +260,7 @@ The user can look up corresponding movies.
   1.
     1. 3.9.1User Interfaces
     Please consult the different use case descriptions for UI mockups (screenshots) and UI functionality descriptions:
-    
+
     (tbd)
 
 [Describe the user interfaces that are to be implemented by the software.]
