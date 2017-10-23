@@ -66,25 +66,25 @@ Table of Contents
 | 4.        Supporting Information        |
 | Software Requirements Specification |
 
-**1.Introduction**
+**1 Introduction**
 
 
-**1.1Purpose**
+**1.1 Purpose**
 
 The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the components of the system, their features, interfaces, and constraints and explain their purpose.
 
-**1.2Scope**
+**1.2 Scope**
 
 This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the Overall Description (LINK)
 
-**1.3Definitions, Acronyms, and Abbreviations**
+**1.3 Definitions, Acronyms, and Abbreviations**
 
 - **SRS** Software Requirements Specification
 - **n/a** not applicable
 - **tbd** to be determined
 - **MTTR** Mean Time to Recover
 
-**1.4References**
+**1.4 References**
 
 tbd
 
@@ -92,18 +92,18 @@ tbd
 
 The remainder of this document contains the following: Product functionality is explained in the Overall Description section which also includes a use-case-diagram. Product requirements are detailed in the Requirements Specification section.
 
-**2.Overall Description**
+**2 Overall Description**
 
 MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in (LANGUAGE) using the (FRAMEWORK) framework, an Android app written in Java, and a web app written in Elm.
 
 ![Use Case Diagram](https://github.com/VSSSE/VSS-DOC/blob/master/UMLUseCases%20(1).jpg)
 
 
-**3.Specific Requirements**
+**3 Specific Requirements**
 
-**3.1Functionality**
+**3.1 Functionality**
 
-**3.1.1Enter a movie title**
+**3.1.1 Enter a movie title**
 
 The user can enter a movie title into a text field.
 
@@ -115,7 +115,7 @@ The user can press the "Search" button and get the soundtrack used in the movie.
 
 The user can choose one song from the listed soundtrack.
 
-**3.1.4  Look up similar songs**
+**3.1.4 Look up similar songs**
 
 After chosing a title, the user gets a list of recommendations based on the song chosen.
 
@@ -158,7 +158,7 @@ The system shall find the correct movie 95%+ of the time. Accuracy for recommend
 The system is expected not to crash and to be available every time its host server is available. That said, we are bound by external API limitations. This may cause the system to be slow or even dysfunctional at times.
 
 
-**3.3.1&lt;Reliability Requirement One&gt;**
+**3.3.1 Reliability Requirement One**
     tbd
 
 
@@ -167,13 +167,7 @@ The system is expected not to crash and to be available every time its host serv
 
 tbd
 
-**3.4.1 Tbd**
-
-tbd
-
 **3.5 Supportability**
-
-**3.5.1 Tbd**
 
 tbd
 
@@ -192,50 +186,50 @@ tbd
 
 **3.7 On-line User Documentation and Help System Requirements**
 
-tbd
+**3.7.1 Online Explanation**
 
-**3.8Purchased Components**
+A short explanation will be provided for online users. It will guide users though the system.
+
+**3.8 Purchased Components**
 
   n/a
 
-**3.9Interfaces**
+**3.9 Interfaces**
 
 
 
-**3.9.1User Interfaces**
+**3.9.1 User Interfaces**
 
 Please consult the different use case descriptions for UI mockups (screenshots) and UI functionality descriptions:
 
   tbd
 
-**3.9.2Hardware Interfaces**
-
-tbd
-
-**3.9.3Software Interfaces**
-
-tbd
-
-**3.9.4Communications Interfaces**
-
-tbd
-
-**3.10Licensing Requirements**
+**3.9.2 Hardware Interfaces**
 
 n/a
 
+**3.9.3 Software Interfaces**
 
-**3.11Legal, Copyright, and Other Notices**
+tbd
 
- n/a
+**3.9.4 Communications Interfaces**
+
+tbd
+
+**3.10 Licensing Requirements**
+
+tbd
+
+**3.11 Legal, Copyright, and Other Notices**
+
+tbd
 
 
-
-**3.12Applicable Standards**
+**3.12 Applicable Standards**
 
 n/a
 
-**4.Supporting Information**
+**4 Supporting Information**
 
 tbd
 
