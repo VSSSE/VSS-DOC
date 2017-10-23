@@ -88,7 +88,7 @@ The remainder of this document contains the following: Product functionality is 
 MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in Elexir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
 
 **Overall Use Case Diagram**
-![Overall Use Case Diagram](https://github.com/VSSSE/VSS-DOC/blob/master/UMLUseCases.jpg)
+![Overall Use Case Diagram](https://github.com/VSSSE/VSS-DOC/blob/master/UML/UMLUseCases.jpg)
 <!-- TODO: DIAGRAM -->
 
 
