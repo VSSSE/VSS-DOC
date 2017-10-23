@@ -211,5 +211,4 @@ n/a
 
 **4 Supporting Information**
 
-tbd
-
+For recent news please visit [Team VSS Project Blog](https://vssse.wordpress.com)
