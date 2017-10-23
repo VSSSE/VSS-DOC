@@ -1,114 +1,94 @@
-Team VSS MovieTunes
+#Team VSS - MovieTunes
 
-Software Requirements Specification
+#Software Requirements Specification for MovieTunes
 
-For &lt;Subsystem or Feature&gt;
+Version 0.1
 
-
-
-Version &lt;1.0&gt;
-
-
-
-[Note: The following template is provided for use with the Rational Unified Process. Text enclosed in square brackets and displayed in blue italics (style=InfoBlue) is included to provide guidance to the author and should be deleted before publishing the document. A paragraph entered following this style will automatically be set to normal (style=Body Text).]
-
-[To customize automatic fields in Microsoft Word (which display a gray background when selected), select File&gt;Properties and replace the Title, Subject and Company fields with the appropriate information for this document. After closing the dialog, automatic fields may be updated throughout the document by selecting Edit&gt;Select All (or Ctrl-A) and pressing F9, or simply click on the field and press F9.  This must be done separately for Headers and Footers.  Alt-F9 will toggle between displaying the field names and the field contents.  See Word help for more information on working with fields.]
+ 
 
 Revision History
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
-| &lt;dd/mmm/yy&gt; | &lt;x.x&gt; | &lt;details&gt; | &lt;name&gt; |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
+| 22.10.2017 | 0.1 | First SRS | Team Vss |
 
-Table of Contents
+##Table of Contents
 
-| 1.        Introduction        |
-| --- |
-|         Purpose        |
-|         Scope        |
-|         Definitions, Acronyms, and Abbreviations        |
-|         References        |
-|         Overview        |
-| 2.        Overall Description        |
-| 3.        Specific Requirements        |
-|         Functionality        |
-| 3.1.1        &lt;Functional Requirement One&gt;        |
-|         Usability        |
-| 3.2.1        &lt;Usability Requirement One&gt;        |
-|         Reliability        |
-| 3.3.1        &lt;Reliability Requirement One&gt;        |
-|         Performance        |
-| 3.4.1        &lt;Performance Requirement One&gt;        |
-|         Supportability        |
-| 3.5.1        &lt;Supportability Requirement One&gt;        |
-|         Design Constraints        |
-| 3.6.1        &lt;Design Constraint One&gt;        |
-|         On-line User Documentation and Help System Requirements        |
-|         Purchased Components        |
-|         Interfaces        |
-| 3.9.1        User Interfaces        |
-| 3.9.2        Hardware Interfaces        |
-| 3.9.3        Software Interfaces        |
-| 3.9.4        Communications Interfaces        |
-|         Licensing Requirements        |
-|         Legal, Copyright, and Other Notices        |
-|         Applicable Standards        |
-| 4.        Supporting Information        |
-| Software Requirements Specification |
+- [Table of contents](#table-of-contents)
+- [Introduction](#introduction)
+	- [Purpose](#purpose)
+	- [Scope](#scope)
+	- [Definitions, Acronyms and Abbreviations](#definitions-acronyms-and-abbreviations)
+	- [References](#references)
+	- [Overview](#overview)
+- [Overall Description](#overall-description)
+- [Specific Requirements](#specific-requirements)
+	- [Functionality](#functionality)
+		- [&lt;Functional Requirement One&gt;](#t&lt;Functional Requirement One&gt;)
+	- [Usability](#usability)
+		- [&lt;Usability Requirement One&gt;](#&lt;Usability Requirement One&gt;)
+	- [Reliability](#reliability)
+		- [&lt;Reliability Requirement One&gt;](#&lt;Reliability Requirement One&gt;)
+	- [Performance](#performance)
+		- [&lt;Performance Requirement One&gt;](#&lt;Performance Requirement One&gt;)
+	- [Supportability](#supportability)
+		- [&lt;Supportability Requirement One&gt;](#&lt;Supportability Requirement One&gt;) 
+	- [Design Constraints](#design-constraints)
+		- [&lt;Design Constraint One&gt;](#&lt;Design Constraint One&gt;)
+	- [Online User Documentation and Help System Requirements](#online-user-documentation-and-help-system-requirements)
+	- [Purchased Components](#purchased-components)
+	- [Interfaces](#interfaces)
+		- [User Interfaces](#user-interfaces)
+		- [Hardware Interfaces](#hardware-interfaces)
+		- [Software Interfaces](#software-interfaces)
+		- [Communications Interfaces](#communications-interfaces)
+			- [MySQL Server](#mysql-server)
+	- [Licensing Requirements](#licensing-requirements)
+	- [Legal, Copyright And Other Notices](#legal-copyright-and-other-notices)
+	- [Applicable Standards](#applicable-standards)
+- [Supporting Information](#supporting-information)
+ 
 
-1. 1.Introduction
-
-[The introduction of the **Software Requirements Specification (SRS)** provides an overview of the entire **SRS**. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of the **SRS**.]
-
-[Note: The **SRS** document captures the complete software requirements for the system, or a portion of the system.  Following is a typical **SRS** outline for a project using only traditional, natural-language style requirements—with **no use-case modeling.  ** It captures all requirements in a single document, with applicable sections inserted from the Supplementary Specifications (which would no longer be needed).  For a template of an **SRS** using use-case modeling, which consists of a package containing Use Cases of the use-case model and applicable Supplementary Specifications and other supporting information, see rup\_srsuc.dot.]
-
-[Many different arrangements of an **SRS** are possible.  Refer to [IEEE830-1998] for further elaboration of these explanations, as well as other options for **SRS** organization.]
-
-1.
-  1. 1.1Purpose
+##Introduction
+ 
+###Purpose
 
 The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the components of the system, their features, interfaces, and constraints and explain their purpose.
 
-1.
-  1. 1.2Scope
+###Scope
 
-This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the Overall Description (LINK)
+This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the [Overall Description](#overall-description)
 
-1.
-  1. 1.3Definitions, Acronyms, and Abbreviations
+
+###Definitions, Acronyms, and Abbreviations
 
 - **SRS** Software Requirements Specification
 - **n/a** not applicable
 - **tbd** to be determined
 
-1.
-  1. 1.4References
+###References
 
 tbd
 
-1.
-  1. 1.5Overview
+###Overview
 
 The remainder of this document contains the following: Product functionality is explained in the Overall Description section which also includes a use-case-diagram. Product requirements are detailed in the Requirements Specification section.
 
-1. 2.Overall Description
+##Overall Description
 
-MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in (LANGUAGE) using the (FRAMEWORK) framework, an Android app written in Java, and a web app written in Elm.
-DIAGRAM HERE
+MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in Elexir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
+
+**Overall Use Case Diagram**
+![Overall Use Case Diagram](images/overalluc.png) 
+<!-- TODO: DIAGRAM -->
+
+<!-- TODO: What is this list for?-->
 • product perspective
-
 • product functions
-
-•  user characteristics
-
+• user characteristics
 • constraints
-
 • assumptions and dependencies
-
-• requirements subsets]
+• requirements subsets
 
 1. 3.Specific Requirements
 
