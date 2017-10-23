@@ -127,7 +127,7 @@ The user can enter a song title
 
 The user can look up corresponding movies.
 
-  **3.2Usability**
+  **3.2 Usability**
 
 
 **3.2.1 Training time**
@@ -139,7 +139,7 @@ Usage of this product is self-evident. Users are able to use the main features j
 The application will be available in English.
 
 
-**3.3Reliability**
+**3.3 Reliability**
 
 **3.3.1 Server availability**
 
