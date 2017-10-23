@@ -175,7 +175,7 @@ The system is expected not to crash and to be available every time its host serv
 
 ### 3.4 Performance
 
-tbd
+Performance will become clear once third-party APIs have been tested.
 
 ### 3.5 Supportability
 
@@ -200,7 +200,7 @@ A short explanation will be provided for online users. It will guide users thoug
 
 ### 3.8 Purchased Components
 
-tbd
+n/a
 
 ### 3.9 Interfaces
 
