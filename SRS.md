@@ -166,6 +166,7 @@ tbd
 
  - Git for version control
 
+ - HTML5, CSS3, JavaScript, partially compiled from Elm.
 
 **3.7 On-line User Documentation and Help System Requirements**
 
@@ -175,17 +176,13 @@ A short explanation will be provided for online users. It will guide users thoug
 
 **3.8 Purchased Components**
 
-  n/a
+tbd
 
 **3.9 Interfaces**
 
-
-
 **3.9.1 User Interfaces**
 
-Please consult the different use case descriptions for UI mockups (screenshots) and UI functionality descriptions:
-
-  tbd
+Users can access the system via Andriod app or web interface. Mockups for their design are tbd
 
 **3.9.2 Hardware Interfaces**
 
