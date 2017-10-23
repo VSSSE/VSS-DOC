@@ -12,7 +12,6 @@ Revision History
 | 22.10.2017 | 0.1 | First SRS | Team Vss |
 
 
-
 ## Table of Contents
 - [Table of contents](#table-of-contents)
 - [1. Introduction](#1-introduction)
@@ -39,24 +38,22 @@ Revision History
 		- [3.3.2 MTTR](#332-mttr)
 		- [3.3.3 Accuracy](#333-accuracy)
 		- [3.3.4 System Availability](#334-system-availability)
-	- [Performance](#performance)
-		- [&lt;Performance Requirement One&gt;](#&lt;Performance Requirement One&gt;)
-	- [Supportability](#supportability)
-		- [&lt;Supportability Requirement One&gt;](#&lt;Supportability Requirement One&gt;)
-	- [Design Constraints](#design-constraints)
-		- [&lt;Design Constraint One&gt;](#&lt;Design Constraint One&gt;)
-	- [Online User Documentation and Help System Requirements](#online-user-documentation-and-help-system-requirements)
-	- [Purchased Components](#purchased-components)
-	- [Interfaces](#interfaces)
-		- [User Interfaces](#user-interfaces)
-		- [Hardware Interfaces](#hardware-interfaces)
-		- [Software Interfaces](#software-interfaces)
-		- [Communications Interfaces](#communications-interfaces)
-			- [MySQL Server](#mysql-server)
-	- [Licensing Requirements](#licensing-requirements)
-	- [Legal, Copyright And Other Notices](#legal-copyright-and-other-notices)
-	- [Applicable Standards](#applicable-standards)
-- [Supporting Information](#supporting-information)
+	- [3.4 Performance](#34-performance)
+	- [3.5 Supportability](#35-supportability)
+	- [3.6 Design Constraints](#36-design-constraints)
+		- [3.6.1 Technologies](#361-technologies)
+	- [3.7 Online User Documentation and Help System Requirements](#37-online-user-documentation-and-help-system-requirements)
+		- [3.7.1 Online Explanation](#371-online-explanation)
+	- [3.8 Purchased Components](#38-purchased-components)
+	- [3.9 Interfaces](#39-interfaces)
+		- [3.9.1 User Interfaces](#391-user-interfaces)
+		- [3.9.2 Hardware Interfaces](#392-hardware-interfaces)
+		- [3.9.3 Software Interfaces](#393-software-interfaces)
+		- [3.9.4 Communications Interfaces](#394-communications-interfaces)
+	- [3.10 Licensing Requirements](#310-licensing-requirements)
+	- [3.11 Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
+	- [3.12 Applicable Standards](#312-applicable-standards)
+- [4. Supporting Information](#4-supporting-information)
 
 
 ## 1. Introduction
@@ -67,7 +64,7 @@ The purpose of this document is to fully describe the external behaviour of the 
 
 ### 1.2 Scope
 
-This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the [Overall Description](#overall-description)
+This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the [Overall Description](#2-overall-description)
 
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
@@ -91,7 +88,7 @@ The remainder of this document contains the following: Product functionality is 
 MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in Elexir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
 
 **Overall Use Case Diagram**
-![Overall Use Case Diagram]((https://github.com/VSSSE/VSS-DOC/blob/master/UMLUseCases.jpg)
+![Overall Use Case Diagram](https://github.com/VSSSE/VSS-DOC/blob/master/UMLUseCases.jpg)
 <!-- TODO: DIAGRAM -->
 
 
@@ -115,7 +112,7 @@ The target server for the web app must fit the following requirements:
 - Web server (Nginx)
 - Elexir
 - min. 1GB RAM
-- min. 1 CPU Core@1.8Ghz
+- min. 1 CPU Core @1.8Ghz
 - min. 10GB HDD
 
 The target android device for the andorid app  must fit the following requirements:
@@ -157,7 +154,7 @@ Usage of this product is self-evident. Users are able to use the main features j
 The application will be available in English.
 
 
-###3.3 Reliability
+### 3.3 Reliability
 
 #### 3.3.1 Server availability
 
@@ -195,47 +192,47 @@ We will use the following technologies:
 - Git for version control
 - HTML5, CSS3, JavaScript, partially compiled from Elm.
 
-**3.7 On-line User Documentation and Help System Requirements**
+### 3.7 On-line User Documentation and Help System Requirements
 
-**3.7.1 Online Explanation**
+#### 3.7.1 Online Explanation
 
 A short explanation will be provided for online users. It will guide users though the system.
 
-**3.8 Purchased Components**
+### 3.8 Purchased Components
 
 tbd
 
-**3.9 Interfaces**
+### 3.9 Interfaces
 
-**3.9.1 User Interfaces**
+#### 3.9.1 User Interfaces
 
 Users can access the system via Andriod app or web interface. Mockups for their design are tbd
 
-**3.9.2 Hardware Interfaces**
+#### 3.9.2 Hardware Interfaces
 
 n/a
 
-**3.9.3 Software Interfaces**
+#### 3.9.3 Software Interfaces
 
 tbd
 
-**3.9.4 Communications Interfaces**
+#### 3.9.4 Communications Interfaces
 
 tbd
 
-**3.10 Licensing Requirements**
+#### 3.10 Licensing Requirements
 
 tbd
 
-**3.11 Legal, Copyright, and Other Notices**
+#### 3.11 Legal, Copyright, and Other Notices
 
 tbd
 
 
-**3.12 Applicable Standards**
+#### 3.12 Applicable Standards
 
 n/a
 
-**4 Supporting Information**
+### 4 Supporting Information
 
 For recent news please visit [Team VSS Project Blog](https://vssse.wordpress.com)
