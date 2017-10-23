@@ -4,23 +4,6 @@
 
 For Movie Tunes Project
 
-
-
-Version 1.0
-
-
-
-
-
-**Revision History**
-
-| **Date** | **Version** | **Description** | **Author** |
-| --- | --- | --- | --- |
-|22.1017 | 1.0 | SRS and use case diagram | Team VSS |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-
 Table of Contents
 
 | 1.        Introduction        |
