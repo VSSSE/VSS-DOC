@@ -1,6 +1,6 @@
-#Team VSS - MovieTunes
+# Team VSS - MovieTunes
 
-#Software Requirements Specification for MovieTunes
+# Software Requirements Specification for MovieTunes
 
 Version 0.1
 
@@ -11,7 +11,7 @@ Revision History
 | --- | --- | --- | --- |
 | 22.10.2017 | 0.1 | First SRS | Team Vss |
 
-##Table of Contents
+## Table of Contents
 
 - [Table of contents](#table-of-contents)
 - [Introduction](#introduction)
@@ -48,18 +48,18 @@ Revision History
 - [Supporting Information](#supporting-information)
 
 
-##Introduction
+## Introduction
 
-###Purpose
+### Purpose
 
 The purpose of this document is to fully describe the external behaviour of the MovieTunes project. It will specify the components of the system, their features, interfaces, and constraints and explain their purpose.
 
-###Scope
+### Scope
 
 This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the [Overall Description](#overall-description)
 
 
-###Definitions, Acronyms, and Abbreviations
+### Definitions, Acronyms, and Abbreviations
 
 - **SRS** Software Requirements Specification
 - **n/a** not applicable
@@ -67,15 +67,15 @@ This SRS applies to the entire MovieTunes project. MovieTunes is a online servic
 - **MTTR** Mean Time to Recover
 
 
-###References
+### References
 
 tbd
 
-###Overview
+### Overview
 
 The remainder of this document contains the following: Product functionality is explained in the Overall Description section which also includes a use-case-diagram. Product requirements are detailed in the Requirements Specification section.
 
-##Overall Description
+## Overall Description
 
 MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in Elexir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
 
