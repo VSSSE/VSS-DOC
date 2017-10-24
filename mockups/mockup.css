@@ -1,34 +1,40 @@
 .site{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 15% auto 1fr 3fr;
-    grid-template-areas:
-        "header" "sidebar"
-        "main" "main"
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
 }
 .site-header{
-    grid-area: header;
+    grid-column: 2;
 }
 .sidebar{
-    grid-area: sidebar;
+    grid-column: 3;
+    grid-row: 1;
+    align-self: center;
 }
 .site-main{
-    grid-area: main;
+    grid-column: 2/4;
+    grid-row: 2;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-        "intro" "intro"
-        "text" "button"
+    grid-column-gap: 1em;
 }
 .intro{
-    grid-area: intro;
+    grid-row: 1;
+    grid-column: 1/3;
+
 }
 .movie-input{
-    grid-area: text;
+    grid-row: 2;
+    align-self: start;
+    min-height: 2em;
+
 }
 .movie-sub{
-    grid-area: button;
+    grid-row: 2;
+    align-self: start;
+    min-height: 2em;
 }
 
 
