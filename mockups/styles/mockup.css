@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'flagshipslab';
+    src: url('./styles/FlagshipSlabRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .site{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -6,6 +13,9 @@
 }
 .site-header{
     grid-column: 2;
+    font-family: flagshipslab;
+    font-size: 16px;
+    align-self: end;
 }
 .sidebar{
     grid-column: 3;
@@ -29,12 +39,19 @@
     grid-row: 2;
     align-self: start;
     min-height: 2em;
-
 }
+
+.movie-input:focus{
+    box-shadow: 1px 1px 5px #888888;
+}
+
 .movie-sub{
     grid-row: 2;
     align-self: start;
-    min-height: 2em;
+    min-height: 2.7em;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #5cce5c;
 }
 
 
