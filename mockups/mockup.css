@@ -1,9 +1,39 @@
 .site{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 15% auto 1fr 3fr;
+    grid-template-areas:
+        "header" "sidebar"
+        "main" "main"
+}
+.site-header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.site-main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "intro" "intro"
+        "text" "button"
+}
+.intro{
+    grid-area: intro;
+}
+.movie-input{
+    grid-area: text;
+}
+.movie-sub{
+    grid-area: button;
 }
 
+
+
+/*
 @media all and (min-width: 768px){
    .site-header{
        grid-column: 1/2;

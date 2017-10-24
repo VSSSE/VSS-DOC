@@ -85,7 +85,7 @@ The remainder of this document contains the following: Product functionality is 
 
 ## 2. Overall Description
 
-MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in Elexir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
+MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in Elixir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
 
 **Overall Use Case Diagram**
 ![Overall Use Case Diagram](https://github.com/VSSSE/VSS-DOC/blob/master/UML/UMLUseCases.jpg)
@@ -110,12 +110,12 @@ Makes the following items easier to understand:
 #### 3.1.1 Taget System
 The target server for the web app must fit the following requirements:
 - Web server (Nginx)
-- Elexir
+- Elixir
 - min. 1GB RAM
 - min. 1 CPU Core @1.8Ghz
 - min. 10GB HDD
 
-The target android device for the andorid app  must fit the following requirements:
+The target android device for the andorid app must fit the following requirements:
 - Android Version >= 5.1.1 (API: 22)
 
 #### 3.1.2 Enter a movie title
