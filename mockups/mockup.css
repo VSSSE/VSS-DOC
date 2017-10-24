@@ -1,6 +1,7 @@
-body{
+.site{
+    max-width: 70%;
     display: grid;
-    grid-template-columns: 40px  auto  40px;
+    grid-template-columns: 2fr  1fr  1fr;
     grid-template-rows: 25% auto 100px;
 }
 
