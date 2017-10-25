@@ -1,3 +1,12 @@
+/*
+Proposed Color Palette:
+    Dark:         #594F4F
+    Dark Blue:    #547980
+    Teal:         #45ADA8
+    Mint Green:   #9DE0AD
+    Light Green:  #E5FCC2
+*/
+
 @font-face {
     font-family: 'flagshipslab';
     src: url('./FlagshipSlabRegular.otf');
@@ -5,7 +14,18 @@
     font-style: normal;
 }
 
+h1, p{
+    color: #594F4F;
+}
+a{
+    color: #45ADA8;
+}
+a:visited{
+    color: #547980;
+}
+
 .site {
+    background-color: #E5FCC2;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     grid-template-rows: 3fr 4fr;
@@ -46,7 +66,7 @@
 }
 
 .movie-input:focus {
-    box-shadow: 1px 1px 5px #888888;
+    box-shadow: 1px 1px 3px #888888;
 }
 
 .movie-sub {
@@ -56,6 +76,12 @@
     border-radius: 5px;
     border-style: none;
     background-color: #5cce5c;
+    box-shadow: 1px 1px 5px #888888
+}
+
+.movie-sub:active{
+    background-color: #9DE0AD;
+    box-shadow: 0px 0px 2px #888888
 }
 
 @media all and (min-width: 470px) {
