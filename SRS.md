@@ -10,11 +10,7 @@ Revision History
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
 | 22.10.2017 | 0.1 | First SRS | Team VSS |
-
-    
-#### 3.1.7 Choose a movie from a list
  
-
 
 
 ## Table of Contents
@@ -35,7 +31,14 @@ Revision History
 		- [3.1.4 Look up similar songs to a chosen song](#314-look-up-similar-songs-to-a-chosen-song)
 		- [3.1.5 Search form for movies by song title](#315-search-form-for-movies-by-song-title)
 		- [3.1.6 Look up movies for a given song title](#316-look-up-movies-for-a-given-song-title)
-		- [3.1.7 Choose a movie from a list](#317-Choose-a-movie-from-a-list)
+		- [3.1.7 Choose a movie from a list](#317-choose-a-movie-from-a-list)
+		- [3.1.8 Listen to a song on Spotify](#318-listen-to-a-song-onspotify)
+		- [3.1.9 Listen to a song on Youtube](#319-listen-to-a-song-on-youtube)
+		- [3.1.10 Post a song title on social media](#3110-post-a-song-title-on-social-media)
+		- [3.1.11 Get lyrics of a song](#3111-get-lyrics-of-a-song)
+		- [3.1.12 Get stats for a specific movie](#3112-get-stats-for-a-specific-movie)
+		- [3.1.13 Get stats for a specific country](#3113-get-stats-for-a-specific-country)
+		- [3.1.14 Get a ranking list](#3114-get-a-ranking-list)
 	- [3.2 Usability](#32-usability)
 		- [3.2.1 Training time](#321-training-time)
 		- [3.2.1 Language](#322-language)
@@ -131,10 +134,12 @@ The user can enter a movie title into a text field.
 The user can press the "Search" button and will get forwarded to the lookup page for soundtracks.
 
 #### 3.1.2 Look up soundtracks for a given movie name
+
 After pressing the "Search" button, the user  get a list of soundtracks used in the given movie. 
 
 
 #### 3.1.3 Choose a soundtrack from a list
+
 The user can choose one song from the listed soundtracks and select it by clicking/tapping it. The user will get forwarded to the lookup page for similar songs.
 
 
@@ -156,6 +161,19 @@ After pressing the appropriate button, the user receives a list of movies corres
 
 The user can choose one movie from the listed movies and select it by clicking/tapping it. The user will get forwarded to the lookup page for soundtracks.
 
+#### 3.1.8 Listen to a song on Spotify
+ 
+#### 3.1.9 Listen to a song on Youtube
+
+#### 3.1.10 Post a song title on social media
+
+#### 3.1.11 Get lyrics of a song
+
+#### 3.1.12 Get stats for a specific movie
+
+#### 3.1.13 Get stats for a specific country
+
+#### 3.1.14 Get a ranking list
 
 
 
