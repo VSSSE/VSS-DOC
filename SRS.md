@@ -9,7 +9,12 @@ Revision History
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
-| 22.10.2017 | 0.1 | First SRS | Team Vss |
+| 22.10.2017 | 0.1 | First SRS | Team VSS |
+
+    
+#### 3.1.7 Choose a movie from a list
+ 
+
 
 
 ## Table of Contents
@@ -23,12 +28,14 @@ Revision History
 - [2. Overall Description](#2-overall-description)
 - [3. Specific Requirements](#3-specific-requirements)
 	- [3.1 Functionality](#31-functionality)
-		<!--- [3.1.1 Taget System](#311-taget-system)-->
-		- [3.1.1 Enter a movie title](#312-enter-a-movie-title)
-		- [3.1.2 Choose a title](#313-choose-a-title)
-		- [3.1.3 Look up similar songs](#314-look-up-similar-songs)
-		- [3.1.4 Enter a song title](#315-enter-a-song-title)
-		- [3.1.5 Search for movie soundtracks using the song](#316-search-for-movie-soundtracks-using-the-song)
+		<!--- [3.1.1 Target System](#311-target-system)-->
+		- [3.1.1 Search form for soundtracks by movie name](#311-search-form-for-soundtracks-by-movie-name)
+		- [3.1.2 Look up soundtracks for a given movie name](#312-Look-up-soundtracks-for-a-given-movie-name)
+		- [3.1.3 Choose a soundtrack from a list](#313-Choose-a-soundtrack-from-a-list)
+		- [3.1.4 Look up similar songs to a chosen song](#314-Look-up-similar-songs-to-a-chosen-song)
+		- [3.1.5 Search form for movies by song title](#315-Search-form-for-movies-by-song-title)
+		- [3.1.6 Look up movies for a given song title](#316-Look-up-movies-for-a-given-song-title)
+		- [3.1.7 Choose a movie from a list](#317-Choose-a-movie-from-a-list)
 	- [3.2 Usability](#32-usability)
 		- [3.2.1 Training time](#321-training-time)
 		- [3.2.1 Language](#322-language)
@@ -84,7 +91,7 @@ The remainder of this document contains the following: Product functionality is 
 
 ## 2. Overall Description
 
-MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a backend written in Elixir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
+MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a back end written in Elixir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
 
 **Overall Use Case Diagram**
 ![UCD][]
@@ -106,7 +113,7 @@ Makes the following items easier to understand:
 
 ### 3.1 Functionality
 <!---
-#### 3.1.1 Taget System
+#### 3.1.1 Target System
 The target server for the web app must fit the following requirements:
 - Web server (Nginx)
 - Elixir
@@ -118,26 +125,39 @@ The target server for the web app must fit the following requirements:
 The target android device for the andorid app must fit the following requirements:
 - Android Version >= 5.1.1 (API: 22)
 -->
-#### 3.1.1 Enter a movie title
+#### 3.1.1 Search form for soundtracks by movie name
 
 The user can enter a movie title into a text field.
-The user can press the "Search" button and get the soundtrack used in the movie.
+The user can press the "Search" button and will get forwarded to the lookup page for soundtracks.
 
-#### 3.1.2 Choose a title
+#### 3.1.2 Look up soundtracks for a given movie name
+After pressing the "Search" button, the user  get a list of soundtracks used in the given movie. 
 
-The user can choose one song from the listed soundtrack and select it by clicking/tapping it.
 
-#### 3.1.3 Look up similar songs
+#### 3.1.3 Choose a soundtrack from a list
+The user can choose one song from the listed soundtracks and select it by clicking/tapping it. The user will get forwarded to the lookup page for similar songs.
 
-After chosing a title, the user gets a list of recommendations based on the song chosen.
 
-#### 3.1.4 Enter a song title
+#### 3.1.4 Look up similar songs to a chosen song
 
-The user can enter a song title and confirm their input by pressing the appropriate button.
+After choosing a title, the user gets a list of recommendations based on the song chosen. 
 
-#### 3.1.5 Search for movie soundtracks using the song
+ 
+#### 3.1.5 Search form for movies by song title
 
-The user receives a list of corresponding movies and can select one of them by clicking/tapping it.
+The user can enter a song title into a text field and confirm their input by pressing the appropriate button.
+Then the user will get forwarded to the lookup page for movies.
+
+#### 3.1.6 Look up movies for a given song title
+
+After pressing the appropriate button, the user receives a list of movies corresponding to the song title.
+
+#### 3.1.7 Choose a movie from a list
+
+The user can choose one movie from the listed movies and select it by clicking/tapping it. The user will get forwarded to the lookup page for soundtracks.
+
+
+
 
 ### 3.2 Usability
 
@@ -155,7 +175,7 @@ The application will be available in English.
 
 #### 3.3.1 Server availability
 
-As the server hostig our application is out of our control, we cannot make precise statements of its uptime.
+As the server hosting our application is out of our control, we cannot make precise statements of its uptime.
 
 #### 3.3.2 MTTR
 
