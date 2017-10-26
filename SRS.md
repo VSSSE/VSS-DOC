@@ -25,11 +25,10 @@ Revision History
 	- [3.1 Functionality](#31-functionality)
 		- [3.1.1 Taget System](#311-taget-system)
 		- [3.1.2 Enter a movie title](#312-enter-a-movie-title)
-		- [3.1.3 Search for soundtracks](#313-search-for-soundtracks)
-		- [3.1.4 Choose a title](#314-choose-a-title)
-		- [3.1.5 Look up similar songs](#315-look-up-similar-songs)
-		- [3.1.6 Enter a song title](#316-enter-a-song-title)
-		- [3.1.7 Search for movie soundtracks using the song](#317-search-for-movie-soundtracks-using-the-song)
+		- [3.1.3 Choose a title](#313-choose-a-title)
+		- [3.1.4 Look up similar songs](#314-look-up-similar-songs)
+		- [3.1.5 Enter a song title](#315-enter-a-song-title)
+		- [3.1.6 Search for movie soundtracks using the song](#316-search-for-movie-soundtracks-using-the-song)
 	- [3.2 Usability](#32-usability)
 		- [3.2.1 Training time](#321-training-time)
 		- [3.2.1 Language](#322-language)
@@ -121,24 +120,21 @@ The target android device for the andorid app must fit the following requirement
 #### 3.1.2 Enter a movie title
 
 The user can enter a movie title into a text field.
-
-#### 3.1.3 Search for soundtracks
-
 The user can press the "Search" button and get the soundtrack used in the movie.
 
-#### 3.1.4 Choose a title
+#### 3.1.3 Choose a title
 
 The user can choose one song from the listed soundtrack and select it by clicking/tapping it.
 
-#### 3.1.5 Look up similar songs
+#### 3.1.4 Look up similar songs
 
 After chosing a title, the user gets a list of recommendations based on the song chosen.
 
-#### 3.1.6 Enter a song title
+#### 3.1.5 Enter a song title
 
 The user can enter a song title and confirm their input by pressing the appropriate button.
 
-#### 3.1.7 Search for movie soundtracks using the song
+#### 3.1.6 Search for movie soundtracks using the song
 
 The user receives a list of corresponding movies and can select one of them by clicking/tapping it.
 
@@ -186,7 +182,7 @@ tbd
 #### 3.6.1 Technologies
 
 We will use the following technologies:
-- Elexir for the beck end
+- Elexir for the back end
 - Java and Android Studio for Android development
 - YouTrack
 - Git for version control
