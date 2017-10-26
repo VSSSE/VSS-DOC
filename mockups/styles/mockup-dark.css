@@ -81,16 +81,41 @@ a:visited{
     border-radius: 5px;
     border-style: none;
     background-color: #45ADA8;
-    box-shadow: 1px 1px 5px #888888
+    box-shadow: 1px 1px 5px #547980
 }
 
 .movie-sub:active{
     background-color: #547980;
-    box-shadow: 0px 0px 2px #888888
+    box-shadow: 0px 0px 2px #547980
 }
 
 @media all and (min-width: 470px) {
     .site {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+    .sidebar {
+        grid-column: 4;
+    }
+    .intro {
+        grid-row: 1;
+    }
+    .movie-input {
+        grid-row: 2;
+    }
+    .movie-sub {
+        grid-row: 2;
+    }
+}
+@media all and (min-width: 700px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+    }
+    .site {
+        grid-column: 2;
+        max-width: 700px;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 2fr;

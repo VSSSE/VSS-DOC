@@ -104,3 +104,28 @@ a:visited{
         grid-row: 2;
     }
 }
+@media all and (min-width: 700px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+    }
+    .site {
+        grid-column: 2;
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+    .sidebar {
+        grid-column: 4;
+    }
+    .intro {
+        grid-row: 1;
+    }
+    .movie-input {
+        grid-row: 2;
+    }
+    .movie-sub {
+        grid-row: 2;
+    }
+}
