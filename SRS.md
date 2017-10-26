@@ -23,12 +23,12 @@ Revision History
 - [2. Overall Description](#2-overall-description)
 - [3. Specific Requirements](#3-specific-requirements)
 	- [3.1 Functionality](#31-functionality)
-		- [3.1.1 Taget System](#311-taget-system)
-		- [3.1.2 Enter a movie title](#312-enter-a-movie-title)
-		- [3.1.3 Choose a title](#313-choose-a-title)
-		- [3.1.4 Look up similar songs](#314-look-up-similar-songs)
-		- [3.1.5 Enter a song title](#315-enter-a-song-title)
-		- [3.1.6 Search for movie soundtracks using the song](#316-search-for-movie-soundtracks-using-the-song)
+		<!--- [3.1.1 Taget System](#311-taget-system)-->
+		- [3.1.1 Enter a movie title](#312-enter-a-movie-title)
+		- [3.1.2 Choose a title](#313-choose-a-title)
+		- [3.1.3 Look up similar songs](#314-look-up-similar-songs)
+		- [3.1.4 Enter a song title](#315-enter-a-song-title)
+		- [3.1.5 Search for movie soundtracks using the song](#316-search-for-movie-soundtracks-using-the-song)
 	- [3.2 Usability](#32-usability)
 		- [3.2.1 Training time](#321-training-time)
 		- [3.2.1 Language](#322-language)
@@ -105,7 +105,7 @@ Makes the following items easier to understand:
 ## 3 Specific Requirements
 
 ### 3.1 Functionality
-
+<!---
 #### 3.1.1 Taget System
 The target server for the web app must fit the following requirements:
 - Web server (Nginx)
@@ -113,28 +113,29 @@ The target server for the web app must fit the following requirements:
 - min. 1GB RAM
 - min. 1 CPU Core @1.8Ghz
 - min. 10GB HDD
-
+-->
+<!---
 The target android device for the andorid app must fit the following requirements:
 - Android Version >= 5.1.1 (API: 22)
-
-#### 3.1.2 Enter a movie title
+-->
+#### 3.1.1 Enter a movie title
 
 The user can enter a movie title into a text field.
 The user can press the "Search" button and get the soundtrack used in the movie.
 
-#### 3.1.3 Choose a title
+#### 3.1.2 Choose a title
 
 The user can choose one song from the listed soundtrack and select it by clicking/tapping it.
 
-#### 3.1.4 Look up similar songs
+#### 3.1.3 Look up similar songs
 
 After chosing a title, the user gets a list of recommendations based on the song chosen.
 
-#### 3.1.5 Enter a song title
+#### 3.1.4 Enter a song title
 
 The user can enter a song title and confirm their input by pressing the appropriate button.
 
-#### 3.1.6 Search for movie soundtracks using the song
+#### 3.1.5 Search for movie soundtracks using the song
 
 The user receives a list of corresponding movies and can select one of them by clicking/tapping it.
 
