@@ -119,13 +119,13 @@ ol{
         grid-column: 4;
     }
     .intro {
-        grid-row: 1;
+        grid-row: 2;
     }
     .chromeGridFix {
-        grid-row: 2;
+        grid-row: 3;
     }
     .movie-sub {
-        grid-row: 2;
+        grid-row: 3;
     }
 }
 @media all and (min-width: 700px) {
@@ -142,14 +142,5 @@ ol{
     }
     .sidebar {
         grid-column: 4;
-    }
-    .intro {
-        grid-row: 1;
-    }
-    .chromeGridFix {
-        grid-row: 2;
-    }
-    .movie-sub {
-        grid-row: 2;
     }
 }
