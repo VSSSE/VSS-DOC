@@ -14,6 +14,10 @@ Proposed Color Palette:
     font-style: normal;
 }
 
+html{
+    background-color: #594F4F;
+}
+
 h1{
     color: #9DE0AD;
 }
@@ -33,7 +37,6 @@ ol{
 }
 
 .site {
-    background-color: #594F4F;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     grid-template-rows: auto;

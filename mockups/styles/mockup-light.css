@@ -13,6 +13,9 @@ Proposed Color Palette:
     font-weight: normal;
     font-style: normal;
 }
+html{
+    background-color: #E5FCC2;
+}
 
 h1, p, li{
     color: #594F4F;
@@ -31,7 +34,6 @@ ol{
 }
 
 .site {
-    background-color: #E5FCC2;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     grid-template-rows: auto;
