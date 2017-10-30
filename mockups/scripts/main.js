@@ -1,11 +1,15 @@
 function toLightMode() {
-    var elements = document.getElementsByClassName("light");
-    elements.removeAttribute('class', "dark");
-    elements.addAttribute('class', "light");
+    var elements = document.getElementsByClassName("dark");
+    while (elements) {
+        elements[0].className = elements[0].className.replace(/dark/g, "light");
+        console.log(elements);
+    }
 }
 
 function toDarkMode() {
     var elements = document.getElementsByClassName("light");
-    elements.removeAttribute('class', "light");
-    elements.addAttribute('class', "dark");
+    while (elements) {
+        elements[0].className = elements[0].className.replace(/light/g, "dark");
+        console.log(elements);
+    }
 }
