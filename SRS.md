@@ -32,7 +32,7 @@ Revision History
 		<!--- - [3.1.5 Search form for movies by song title](#315-search-form-for-movies-by-song-title)-->
 		- [3.1.3 Look up movies for a given song title](#313-look-up-movies-for-a-given-song-title)
 		<!--- - [3.1.7 Choose a movie from a list](#317-choose-a-movie-from-a-list)-->
-		- [3.1.4 Listen to a song on Spotify](#314-listen-to-a-song-onspotify)
+		- [3.1.4 Listen to a song on Spotify](#314-listen-to-a-song-on-spotify)
 		- [3.1.5 Listen to a song on Youtube](#315-listen-to-a-song-on-youtube)
 		- [3.1.6 Post a song title on social media](#316-post-a-song-title-on-social-media)
 		- [3.1.7 Get lyrics of a song](#317-get-lyrics-of-a-song)
