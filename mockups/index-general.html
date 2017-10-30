@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mockup Landing</title>
+    <link rel="stylesheet" href="./styles/mockup-general.css">
+</head>
+
+<body>
+    <div class="site light" data-mode="display">
+        <header class="site-header">
+            <h1 class="light">MovieTunes</h1>
+        </header>
+        <aside class="sidebar">
+            <a class="light" data-mode="display" href="./about">about</a>
+            <a class="light" data-mode="display" href="https://github.com/VSSSE/VSS-DOC">GitHub</a>
+        </aside>
+            <p class="intro light" data-mode="display">
+                Welcome to MovieTunes. We make it easy to discover music. To find music based on a soundtrack, please enter a movie title.
+            </p>
+            <div class="chromeGridFix">
+                <input class="movie-input" type="text" required="True" autofocus="True" placeholder="movie title here..." />
+            </div>
+            <button class="movie-sub light" type="submit" data-mode="display">Submit</button>
+        <footer class="site-footer">
+            <button type="button" class="modeButton" data-mode="changeButton" id="tdm" onclick="toDarkMode()">Change to dark mode</button>
+            <button type="button" class="modeButton" data-mode="changeButton" id="tlm" onclick="toLightMode()">Change to light mode</button>
+        </footer>
+    </div>
+    <script src="scripts/main.js" charset="utf-8"></script>
+    <script type="text/javascript">
+            main();
+    </script>
+</body>
+
+</html>
