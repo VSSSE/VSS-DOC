@@ -146,6 +146,25 @@ a.dark:visited{
     border-style: none;
     box-shadow: 1px 1px 5px #888888
 }
+footer{
+    grid-row: 4;
+}
+#tdm{
+    background-color: #594F4F;
+    color: #E5FCC2;
+    border: 1px solid #E5FCC2;
+}
+#tlm{
+    background-color: #E5FCC2;
+    color: #594F4F;
+    border: 1px solid #594F4F;
+}
+.modeButton {
+    align-self: start;
+    min-height: 2.7em;
+    border-radius: 5px;
+    border-style: none;
+}
 
 .movie-sub:focus{
     outline: none;
