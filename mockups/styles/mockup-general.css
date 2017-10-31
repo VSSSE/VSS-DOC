@@ -1,6 +1,6 @@
 /*
 Proposed Color Palette:
-    Dark:         #594F4F
+    Dark:         #383838
     Dark Blue:    #547980
     Teal:         #45ADA8
     Mint Green:   #9DE0AD
@@ -27,7 +27,7 @@ ol{
 }
 
 h1.light, p.light, li.light{
-    color: #594F4F;
+    color: #383838;
 }
 
 a.light{
@@ -42,10 +42,19 @@ a.light:visited{
 .movie-sub.light:active{
     background-color: #9DE0AD;
 }
+.nr.light{
+    color: #383838;
+}
+.name.light{
+    color: #383838;
+}
+.artist.light{
+    color: #383838;
+}
 
 /* DARK */
 .site.dark{
-    background-color: #594F4F;
+    background-color: #383838;
 }
 
 h1.dark{
@@ -65,6 +74,15 @@ a.dark:visited{
 }
 .movie-sub.dark:active{
     background-color: #547980;
+}
+.nr.dark{
+    color: #E5FCC2;
+}
+.name.dark{
+    color: #9DE0AD;
+}
+.artist.dark{
+    color: #E5FCC2;
 }
 
 /* LAYOUT */
@@ -100,16 +118,18 @@ a.dark:visited{
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
     grid-template-rows: 1fr;
+    grid-column-gap: 2em;
+}
+.intro .query-result .nr .artist .name{
+    font-family: sans-serif;
 }
 .intro {
     grid-row: 2;
     grid-column: 2/5;
-    font-family: sans-serif;
 }
 .query-result {
     grid-row: 2;
     grid-column: 2/5;
-    font-family: sans-serif;
 }
 .nr{
     grid-column: 1;
@@ -150,14 +170,14 @@ footer{
     grid-row: 4;
 }
 #tdm{
-    background-color: #594F4F;
+    background-color: #383838;
     color: #E5FCC2;
     border: 1px solid #E5FCC2;
 }
 #tlm{
     background-color: #E5FCC2;
-    color: #594F4F;
-    border: 1px solid #594F4F;
+    color: #383838;
+    border: 1px solid #383838;
 }
 .modeButton {
     align-self: start;
