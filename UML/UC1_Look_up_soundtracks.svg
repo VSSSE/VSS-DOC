@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="46cm" height="42cm" viewBox="296 -1 905 822" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #ffffff" cx="449.97" cy="153.858" rx="81.8" ry="32"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="449.97" cy="153.858" rx="81.8" ry="32"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="449.97" y="149.758">
+      <tspan x="449.97" y="149.758">Enter movie </tspan>
+      <tspan x="449.97" y="165.758">title</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="600" y1="0" x2="600" y2="820"/>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="750.046" y="36.2979">
+    <tspan x="750.046" y="36.2979">System</tspan>
+  </text>
+  <text font-size="14.6753" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1049.56" y="36.3696">
+    <tspan x="1049.56" y="36.3696">Foreign API</tspan>
+  </text>
+  <ellipse style="fill: #000000" cx="450.239" cy="68.3229" rx="10" ry="10"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" x1="900" y1="0" x2="900" y2="820"/>
+  <text font-size="14.6756" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450.458" y="36.7131">
+    <tspan x="450.458" y="36.7131">User</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="450.239,79.3283 450.239,100.089 449.97,100.089 449.97,116.378 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="444.97,108.614 449.97,118.614 454.97,108.614 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="750.138" cy="251.199" rx="134.375" ry="44.7917"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="750.138" cy="251.199" rx="134.375" ry="44.7917"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="750.138" y="247.099">
+      <tspan x="750.138" y="247.099">Check if the movie title</tspan>
+      <tspan x="750.138" y="263.099">has been requested earlier</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="449.946" cy="251.153" rx="63.65" ry="21.2167"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="449.946" cy="251.153" rx="63.65" ry="21.2167"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="449.946" y="255.053">
+      <tspan x="449.946" y="255.053">Submit form</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="449.97,186.866 449.97,207.899 449.946,207.899 449.946,224.459 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="444.946,216.695 449.946,226.695 454.946,216.695 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="514.604,251.153 564.679,251.153 564.679,251.199 610.282,251.199 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="602.518,256.199 612.518,251.199 602.518,246.199 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="730.009,359.789 750.009,339.789 770.009,359.789 750.009,379.789 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="730.009,359.789 750.009,339.789 770.009,359.789 750.009,379.789 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="750.138,295.991 750.138,317.89 750.009,317.89 750.009,335.317 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="745.009,327.553 750.009,337.553 755.009,327.553 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1050.12" cy="359.985" rx="126.2" ry="48"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1050.12" cy="359.985" rx="126.2" ry="48"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1050.12" y="347.885">
+      <tspan x="1050.12" y="347.885">Request a list of all </tspan>
+      <tspan x="1050.12" y="363.885">soundtracks for </tspan>
+      <tspan x="1050.12" y="379.885">the movie</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="749.984" cy="696.978" rx="101.9" ry="33.9667"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="749.984" cy="696.978" rx="101.9" ry="33.9667"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="749.984" y="692.878">
+      <tspan x="749.984" y="692.878">Create the result</tspan>
+      <tspan x="749.984" y="708.878">response</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="450.625" cy="697.095" rx="91.95" ry="30.65"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="450.625" cy="697.095" rx="91.95" ry="30.65"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450.625" y="700.995">
+      <tspan x="450.625" y="700.995">Show the result page</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="647.078,696.978 595.329,696.978 595.329,697.095 548.052,697.095 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="555.816,692.095 545.816,697.095 555.816,702.095 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="749.901" cy="498.07" rx="115.875" ry="38.625"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="749.901" cy="498.07" rx="115.875" ry="38.625"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="749.901" y="501.97">
+      <tspan x="749.901" y="501.97">Save the list in our database</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="729.97,601.37 749.97,581.37 769.97,601.37 749.97,621.37 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="729.97,601.37 749.97,581.37 769.97,601.37 749.97,621.37 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="749.901,536.695 749.901,559.032 749.97,559.032 749.97,576.897 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="744.97,569.134 749.97,579.134 754.97,569.134 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="750.009,379.789 750.009,443.565 629.146,443.565 629.146,601.37 725.497,601.37 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="717.734,606.37 727.734,601.37 717.734,596.37 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="665.107" y="437.548">[It was requested earlier]</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="749.97,621.37 749.97,642.19 749.984,642.19 749.984,658.539 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="744.984,650.775 749.984,660.775 754.984,650.775 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="770.009,359.789 884.488,359.789 884.488,359.985 918.471,359.985 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="910.707,364.985 920.707,359.985 910.707,354.985 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="831.998" y="350.888">[First request]</text>
+  </g>
+  <ellipse style="fill: #000000" cx="450.378" cy="780.782" rx="10" ry="10"/>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="450.625,727.745 450.625,748.761 450.378,748.761 450.378,765.305 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="445.378,757.541 450.378,767.541 455.378,757.541 "/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #000000" points="297.572,1.34164 298.844,1.34164 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1200" y1="0" x2="300" y2="0"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="300" y1="820" x2="300" y2="0"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1200" y1="820" x2="1200" y2="0"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1200" y1="820" x2="300" y2="820"/>
+  <g>
+    <polygon style="fill: #ffffff" points="1030.3,472.683 1050.3,452.683 1070.3,472.683 1050.3,492.683 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1030.3,472.683 1050.3,452.683 1070.3,472.683 1050.3,492.683 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1050.12,407.985 1050.12,430.334 1050.3,430.334 1050.3,448.211 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1045.3,440.447 1050.3,450.447 1055.3,440.447 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1030.3,472.683 955.028,472.683 955.028,498.07 870.248,498.07 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="878.012,493.07 868.012,498.07 878.012,503.07 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="957.104" y="515.628">[Response includes the list]</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1050.3,492.683 1050.3,696.978 856.357,696.978 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="864.121,691.978 854.121,696.978 864.121,701.978 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="976.356" y="713.501">[No soundtracks found]</text>
+  </g>
+</svg>

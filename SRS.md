@@ -82,11 +82,20 @@ This SRS applies to the entire MovieTunes project. MovieTunes is a online servic
 - **n/a** not applicable
 - **tbd** to be determined
 - **MTTR** Mean Time to Recover
+- **UC** Use Case
+- **UCD** Use Case Diagram
+- **OUCD** Overall Use Case Diagram
 
 
 ### 1.4 References
 
-tbd
+|			Title									|	Date		|
+|---------------------------------------------------|---------------|
+| [VSS Blog](https://vssse.wordpress.com/) |01.11.2017 |
+| [Overall Use Case Diagram (OUCD)](https://github.com/VSSSE/VSS-DOC/blob/master/UML/UseCaseOverall.svg) | 01.11.2017|
+| [UC1_Look_up_soundtracks](Placeholder) | 01.11.2017 |
+| [UC2_Look_up_similar_songs](Placeholder) | 01.11.2017|
+
 
 ### 1.5 Overview
 
@@ -279,4 +288,4 @@ n/a
 For recent news please visit [Team VSS Project Blog](https://vssse.wordpress.com)
 
 <!-- Picture-Links: -->
-[UCD]: https://github.com/VSSSE/VSS-DOC/blob/master/UML/UMLUseCases.jpg "Overall Use Case Diagram"
+[UCD]: https://github.com/VSSSE/VSS-DOC/blob/master/UML/UseCaseOverall.svg "Overall Use Case Diagram"
