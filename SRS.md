@@ -92,7 +92,7 @@ This SRS applies to the entire MovieTunes project. MovieTunes is a online servic
 |			Title									|	Date		|
 |---------------------------------------------------|---------------|
 | [VSS Blog](https://vssse.wordpress.com/) |01.11.2017 |
-| [Overall Use Case Diagram (OUCD)](https://github.com/VSSSE/VSS-DOC/blob/master/UML/UseCaseOverall.svg) | 01.11.2017|
+| [Overall Use Case Diagram (OUCD)](https://github.com/VSSSE/VSS-DOC/blob/master/UML/UseCaseOverall.png) | 01.11.2017|
 | [UC1_Look_up_soundtracks](Placeholder) | 01.11.2017 |
 | [UC2_Look_up_similar_songs](Placeholder) | 01.11.2017|
 
@@ -288,4 +288,4 @@ n/a
 For recent news please visit [Team VSS Project Blog](https://vssse.wordpress.com)
 
 <!-- Picture-Links: -->
-[UCD]: https://github.com/VSSSE/VSS-DOC/blob/master/UML/UseCaseOverall.svg "Overall Use Case Diagram"
+[UCD]: https://github.com/VSSSE/VSS-DOC/blob/master/UML/UseCaseOverall.png "Overall Use Case Diagram"
