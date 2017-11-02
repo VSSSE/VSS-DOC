@@ -52,8 +52,8 @@ After pressing the "Search" button, the user  get a list of soundtracks used in 
 
 ### 1.2 Mockup
 
-
-
+ 
+![Mockup][] 
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
@@ -136,3 +136,5 @@ n/a
 
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC1_Look_up_soundtracks.png "Overall Use Case Diagram"
+[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_soundtracks.png "Search form for soundtracks"
+

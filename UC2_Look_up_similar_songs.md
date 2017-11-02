@@ -50,6 +50,7 @@ After choosing a title, the user gets a list of recommendations based on the son
 
 ### 1.2 Mockup
 
+![Mockup][] 
 
 
 ## 2. Flow of Events
@@ -132,3 +133,4 @@ n/a
 
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC2_Look_up_similar_songs.png "Overall Use Case Diagram"
+[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_similar_songs.png "Soundtracks list"
