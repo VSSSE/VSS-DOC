@@ -17,14 +17,15 @@ Revision History
 - [Table of contents](#table-of-contents)
 - [1. Use-Case Look up soundtracks](#1-use-case-look-up-soundtracks)
   - [1.1 Brief Description](#11-brief-description)
+  - [1.2 Mockup](#12-mockup)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow) 
   - [2.2 Alternative Flows](#22-alternative-flows) 
-    - [2.2.1 &lt; First Alternative Flow &gt; ](#221-placeholder)
+  <!--    - [2.2.1 &lt; First Alternative Flow &gt; ](#221-placeholder) -->
 - [3. Special Requirements](#3-special-requirements)
   - [3.1 &lt; First Special Requirement &gt;](#31-placeholder) 
 - [4. Preconditions](#4-preconditions)
-  - [4.1 &lt; First Precondition One &gt;](#41-placeholder) 
+  - [4.1 Need to be on the main view](#41-need-to-be-on-the-main-view) 
 - [5. Postconditions](#5-postconditions)
   - [5.1 &lt; First Postcondition One &gt;](#51-placeholder) 
 - [6. Extension Points](#6-extension-points)
@@ -46,6 +47,11 @@ The user can press the "Search" button and will get forwarded to the lookup page
 
 After pressing the "Search" button, the user  get a list of soundtracks used in the given movie. 
 
+### 1.2 Mockup
+
+
+
+
 ## 2. Flow of Events
 ### 2.1 Basic Flow
 <!--
@@ -64,6 +70,7 @@ A picture is sometimes worth a thousand words, though there is no substitute for
 
 
 ### 2.2 Alternative Flows
+<!--
 #### 2.2.1 &lt; First Alternative Flow &gt;
 
 [More complex alternatives are described in a separate section, referred to in the **Basic Flow** subsection of **Flow of Events** section. Think of the **Alternative Flow** subsections like alternative behavior each alternative flow represents alternative behavior usually due to exceptions that occur in the main flow. They may be as long as necessary to describe the events associated with the alternative behavior. When an alternative flow ends, the events of the main flow of events are resumed unless otherwise stated.]
@@ -75,6 +82,9 @@ A picture is sometimes worth a thousand words, though there is no substitute for
 #### 2.2.2 &lt; Second Alternative Flow &gt;
 
 [There may be, and most likely will be, a number of alternative flows in a use case. Keep each alternative flow separate to improve clarity. Using alternative flows improves the readability of the use case, as well as preventing use cases from being decomposed into hierarchies of use cases. Keep in mind that use cases are just textual descriptions, and their main purpose is to document the behavior of a system in a clear, concise, and understandable way.]
+-->
+
+n/a
 
 ## 3. Special Requirements
 
@@ -83,10 +93,13 @@ A picture is sometimes worth a thousand words, though there is no substitute for
 ### 3.1 &lt; First Special Requirement &gt;
 
 ## 4. Preconditions
-
+<!--
 [A precondition of a use case is the state of the system that must be present prior to a use case being performed.]
+-->
 
-### 4.1 &lt; Precondition One &gt;
+### 4.1 Need to be on the main view;
+The user has to be on the main page to see the search form for soundtracks.
+
 ## 5. Postconditions
 
 [A postcondition of a use case is a list of possible states the system can be in immediately after a use case has finished.]
