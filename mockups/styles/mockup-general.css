@@ -1,6 +1,6 @@
 /*
 Proposed Color Palette:
-    Dark:         #594F4F
+    Dark:         #383838
     Dark Blue:    #547980
     Teal:         #45ADA8
     Mint Green:   #9DE0AD
@@ -22,12 +22,12 @@ ol{
 
 /* COLORS */
 /* LIGHT */
-.site.light{
+body.light{
     background-color: #E5FCC2;
 }
 
 h1.light, p.light, li.light{
-    color: #594F4F;
+    color: #383838;
 }
 
 a.light{
@@ -42,10 +42,19 @@ a.light:visited{
 .movie-sub.light:active{
     background-color: #9DE0AD;
 }
+.nr.light{
+    color: #383838;
+}
+.name.light{
+    color: #383838;
+}
+.artist.light{
+    color: #383838;
+}
 
 /* DARK */
-.site.dark{
-    background-color: #594F4F;
+body.dark{
+    background-color: #383838;
 }
 
 h1.dark{
@@ -66,17 +75,28 @@ a.dark:visited{
 .movie-sub.dark:active{
     background-color: #547980;
 }
-
-/* LAYOUT */
-.site{
-    min-width: 100%;
+.nr.dark{
+    color: #E5FCC2;
+}
+.name.dark{
+    color: #9DE0AD;
+}
+.artist.dark{
+    color: #E5FCC2;
 }
 
+/* LAYOUT */
 
-.site {
+.site-start {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     grid-template-rows: auto;
+}
+.site-results {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    visibility: hidden;
 }
 
 .site-header{
@@ -100,16 +120,18 @@ a.dark:visited{
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
     grid-template-rows: 1fr;
+    grid-column-gap: 2em;
+}
+.intro .query-result .nr .artist .name{
+    font-family: sans-serif;
 }
 .intro {
     grid-row: 2;
     grid-column: 2/5;
-    font-family: sans-serif;
 }
 .query-result {
     grid-row: 2;
     grid-column: 2/5;
-    font-family: sans-serif;
 }
 .nr{
     grid-column: 1;
@@ -147,17 +169,7 @@ a.dark:visited{
     box-shadow: 1px 1px 5px #888888
 }
 footer{
-    grid-row: 4;
-}
-#tdm{
-    background-color: #594F4F;
-    color: #E5FCC2;
-    border: 1px solid #E5FCC2;
-}
-#tlm{
-    background-color: #E5FCC2;
-    color: #594F4F;
-    border: 1px solid #594F4F;
+    grid-row: 1;
 }
 .modeButton {
     align-self: start;
@@ -165,7 +177,16 @@ footer{
     border-radius: 5px;
     border-style: none;
 }
-
+.modeButton.tdm{
+    background-color: #383838;
+    color: #E5FCC2;
+    border: 1px solid #E5FCC2;
+}
+.modeButton.tlm{
+    background-color: #E5FCC2;
+    color: #383838;
+    border: 1px solid #383838;
+}
 .movie-sub:focus{
     outline: none;
 }
@@ -192,13 +213,33 @@ footer{
     .movie-sub {
         grid-row: 3;
     }
+    .query-result {
+        grid-row: 2;
+        grid-column: 2/5;
+    }
+    .nr{
+        grid-column: 1;
+    }
+    .name{
+        grid-column: 2;
+    }
+    .artist{
+        grid-column: 3;
+    }
 }
 @media all and (min-width: 700px) {
     body{
         display: grid;
         grid-template-columns: 1fr auto 1fr;
     }
-    .site {
+    .site-start{
+        grid-column: 2;
+        max-width: 684px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+  .site-results{
         grid-column: 2;
         max-width: 684px;
         display: grid;
