@@ -23,13 +23,14 @@ Revision History
   - [2.2 Alternative Flows](#22-alternative-flows) 
   <!--    - [2.2.1 &lt; First Alternative Flow &gt; ](#221-placeholder) -->
 - [3. Special Requirements](#3-special-requirements)
-  - [3.1 &lt; First Special Requirement &gt;](#31-placeholder) 
+  <!--   - [3.1 &lt; First Special Requirement &gt;](#31-placeholder) -->
 - [4. Preconditions](#4-preconditions)
   - [4.1 Need to be on the soundtracks list view](#41-need-to-be-on-the-soundtracks-list-view) 
 - [5. Postconditions](#5-postconditions)
-  - [5.1 &lt; First Postcondition One &gt;](#51-placeholder) 
-- [6. Extension Points](#6-extension-points)
-  - [5.1 &lt; Name of Extension Point &gt;](#61-placeholder) 
+  - [5.1 Success case](#51-success-case) 
+  - [5.2 No similar songs found](#52-no-similar-songs-found) 
+ - [6. Extension Points](#6-extension-points)
+<!--  - [6.1 &lt; Name of Extension Point &gt;](#61-placeholder) -->
 
 <!--
 [The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties.
@@ -85,10 +86,13 @@ A picture is sometimes worth a thousand words, though there is no substitute for
 n/a
 
 ## 3. Special Requirements
-
-[A special requirement is typically a nonfunctional requirement that is specific to a use case, but is not easily or naturally specified in the text of the use case&#39;s event flow. Examples of special requirements include legal and regulatory requirements, application standards, and quality attributes of the system to be built including usability, reliability, performance or supportability requirements. Additionally, other requirementssuch as operating systems and environments, compatibility requirements, and design constraintsshould be captured in this section.]
+<!--
+[A special requirement is typically a nonfunctional requirement that is specific to a use case, but is not easily or naturally specified in the text of the use case&#39;s event flow. Examples of special requirements include legal and regulatory requirements, application standards, and quality attributes of the system to be built including usability, reliability, performance or supportability requirements. Additionally, other requirements such as operating systems and environments, compatibility requirements, and design constraintsshould be captured in this section.]
 
 ### 3.1 &lt; First Special Requirement &gt;
+-->
+
+n/a
 
 ## 4. Preconditions
 <!--
@@ -103,17 +107,27 @@ So that the user can select a soundtrack from the list.
 
 ## 5. Postconditions
 
-[A postcondition of a use case is a list of possible states the system can be in immediately after a use case has finished.]
+<!-- [A postcondition of a use case is a list of possible states the system can be in immediately after a use case has finished.] -->
 
-### 5.1 &lt; Postcondition One &gt;
+### 5.1 Success case
+ 
+In the case of success, the user gets the list of similar songs.
+
+### 5.2 No similar songs found
+
+The case of failure occurs, when the foreign API don't find any similar songs.
+
+
 ## 6. Extension Points
 
-[Extension points of the use case.]
+<!--[Extension points of the use case.]
 
 ### 6.1 &lt;Name of Extension Point&gt;
 
 [Definition of the location of the extension point in the flow of events.]
+-->
 
+n/a
 
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC2_Look_up_similar_songs.png "Overall Use Case Diagram"

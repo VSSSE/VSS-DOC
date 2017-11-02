@@ -178,6 +178,8 @@ The user can press the "Search" button and will get forwarded to the lookup page
 After pressing the "Search" button, the user  get a list of soundtracks used in the given movie. 
 
 
+[Look at the details.](https://github.com/VSSSE/VSS-DOC/blob/master/UC1_Look_up_soundtracks.md)
+
 <!---
 #### 3.1.3 Choose a soundtrack from a list
 -->
@@ -188,6 +190,7 @@ The user can choose one song from the listed soundtracks and select it by clicki
 
 After choosing a title, the user gets a list of recommendations based on the song chosen. 
 
+[Look at the details.](https://github.com/VSSSE/VSS-DOC/blob/master/UC2_Look_up_similar_songs.md)
  
 <!---
 #### 3.1.5 Search form for movies by song title
