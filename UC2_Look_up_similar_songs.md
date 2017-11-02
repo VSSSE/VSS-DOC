@@ -1,6 +1,6 @@
 # Team VSS - MovieTunes
 
-# Use-Case Specification: Look up soundtracks
+# Use-Case Specification: Look up similar songs
 
 <!--
 Version 0.1
@@ -15,7 +15,7 @@ Revision History
 ## Table of Contents
 
 - [Table of contents](#table-of-contents)
-- [1. Use-Case Look up soundtracks](#1-use-case-look-up-soundtracks)
+- [1. Use-Case Look up similar songs](#1-use-case-look-up-similar-songs)
   - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow) 
@@ -35,16 +35,15 @@ Revision History
 
 The use-case diagrams can be developed in a visual modeling tool, such as Rational Rose. A use-case report, with all properties, may be generated with Rational SoDA. For more information, see the tool mentors in the Rational Unified Process.]-->
 
-## 1. Use-Case Look up soundtracks
+## 1. Use-Case Look up similar songs
 ### 1.1 Brief Description
 <!--
 [The description briefly conveys the role and purpose of the use case. A single paragraph will suffice for this description.]
 -->
 
-The user can enter a movie title into a text field.
-The user can press the "Search" button and will get forwarded to the lookup page for soundtracks.
+The user can choose one song from the listed soundtracks and select it by clicking/tapping it. The user will get forwarded to the lookup page for similar songs.
 
-After pressing the "Search" button, the user  get a list of soundtracks used in the given movie. 
+After choosing a title, the user gets a list of recommendations based on the song chosen. 
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
@@ -102,4 +101,4 @@ A picture is sometimes worth a thousand words, though there is no substitute for
 
 
 <!-- Picture-Links: -->
-[UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC1_Look_up_soundtracks.png "Overall Use Case Diagram"
+[UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC2_Look_up_similar_songs.png "Overall Use Case Diagram"
