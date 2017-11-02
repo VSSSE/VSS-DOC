@@ -11,6 +11,8 @@ Revision History
 | --- | --- | --- | --- |
 | 92.11.2017 | 0.1 | First Version | Team VSS |
 -->
+This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/master/SRS.md#311-look-up-soundtracks-for-a-given-movie-name)
+
  
 ## Table of Contents
 

@@ -11,7 +11,8 @@ Revision History
 | --- | --- | --- | --- |
 | 92.11.2017 | 0.1 | First Version | Team VSS |
 -->
- 
+This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/master/SRS.md#312-look-up-similar-songs-to-a-chosen-song)
+
 ## Table of Contents
 
 - [Table of contents](#table-of-contents)
@@ -115,7 +116,7 @@ In the case of success, the user gets the list of similar songs.
 
 ### 5.2 No similar songs found
 
-The case of failure occurs, when the foreign API don't find any similar songs.
+The case of failure occurs, when the foreign API don't find any similar songs. The user is shown an informative message.
 
 
 ## 6. Extension Points
