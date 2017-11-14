@@ -51,6 +51,7 @@ After choosing a title, the user gets a list of recommendations based on the son
 ### 1.2 Mockup
 
 ![Mockup][] 
+
 [You can find the feature file here](https://github.com/VSSSE/VSS-CucumberTests/blob/master/VSS-CucumberTests/src/test/resources/LookUpSimilarSongs.feature)
 
 
