@@ -55,7 +55,7 @@ After pressing the "Search" button, the user  get a list of soundtracks used in 
  
 ![Mockup][] 
 
-[Look at the details.](https://github.com/VSSSE/VSS-CucumberTests/blob/master/VSS-CucumberTests/src/test/resources/LookUpSoundtracks.feature)
+[You can find the feature file here:](https://github.com/VSSSE/VSS-CucumberTests/blob/master/VSS-CucumberTests/src/test/resources/LookUpSoundtrack.feature)
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
