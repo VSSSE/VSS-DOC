@@ -26,7 +26,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
   - [2.2 Alternative Flows](#22-alternative-flows) 
   <!--    - [2.2.1 &lt; First Alternative Flow &gt; ](#221-placeholder) -->
 - [3. Special Requirements](#3-special-requirements)
-  - [3.1 &lt; First Special Requirement &gt;](#31-placeholder) 
+  <!-- - [3.1 &lt; First Special Requirement &gt;](#31-placeholder) --> 
 - [4. Preconditions](#4-preconditions)
   - [4.1 Need to be on the main view](#41-need-to-be-on-the-main-view) 
 - [5. Postconditions](#5-postconditions)
@@ -59,6 +59,8 @@ After pressing the "Search" button, the user  get a list of soundtracks used in 
 ### 1.3 Feature file
 
 [You can find the feature file here:](https://github.com/VSSSE/VSS-CucumberTests/blob/master/VSS-CucumberTests/src/test/resources/LookUpSoundtrack.feature)
+
+![Feature][]
 
 ## 2. Flow of Events
 ### 2.1 Basic Flow
@@ -142,4 +144,5 @@ n/a
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC1_Look_up_soundtracks.png "Overall Use Case Diagram"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_soundtracks.png "Search form for soundtracks"
+[Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
 

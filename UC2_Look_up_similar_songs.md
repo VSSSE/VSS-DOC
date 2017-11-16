@@ -58,6 +58,7 @@ After choosing a title, the user gets a list of recommendations based on the son
 [You can find the feature file here](https://github.com/VSSSE/VSS-CucumberTests/blob/master/VSS-CucumberTests/src/test/resources/LookUpSimilarSongs.feature)
 
 
+![Feature][] 
 
 
 
@@ -142,3 +143,4 @@ n/a
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC2_Look_up_similar_songs.png "Overall Use Case Diagram"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_similar_songs.png "Soundtracks list"
+[Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_similar_songs.png "Feature file"
