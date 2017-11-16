@@ -20,6 +20,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
 - [1. Use-Case Look up soundtracks](#1-use-case-look-up-soundtracks)
   - [1.1 Brief Description](#11-brief-description)
   - [1.2 Mockup](#12-mockup)
+  - [1.3 Feature file](#13-feature-file)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow) 
   - [2.2 Alternative Flows](#22-alternative-flows) 
@@ -54,6 +55,8 @@ After pressing the "Search" button, the user  get a list of soundtracks used in 
 
  
 ![Mockup][] 
+
+### 1.3 Feature file
 
 [You can find the feature file here:](https://github.com/VSSSE/VSS-CucumberTests/blob/master/VSS-CucumberTests/src/test/resources/LookUpSoundtrack.feature)
 
