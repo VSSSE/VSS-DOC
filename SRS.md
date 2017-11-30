@@ -208,6 +208,8 @@ After pressing the appropriate button, the user receives a list of movies corres
 The user can choose one movie from the listed movies and select it by clicking/tapping it. The user will get forwarded to the lookup page for soundtracks.
 
 #### 3.1.4 Listen to a song on Spotify
+
+The user can select a song by clicking it and choose the "Listen on Spotify" option. After that the user will be forwarded to the Spotify (www.spotify.com).
  
 #### 3.1.5 Listen to a song on Youtube
 
