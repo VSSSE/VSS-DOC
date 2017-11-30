@@ -33,7 +33,7 @@ This document contains the Architectural Representation, Goals and Constraints a
 The VSS project will use the MVC architecture. Both frontend choices strongly suggest doing so.
 The following image will illustrate the basic idea behind the standard elements Model, View and Controller.
 
-![MVC pattern](https://github.com/DanielFelsing/ccr-documentation/blob/master/02_SRS/Pictures/MVC_Pattern.png)
+![MVC pattern](https://github.com/VSSSE/VSS-DOC/tree/master/Images/MVC_Pattern.png)
 
 ## 3. Architectural Goals and Constraints
 
@@ -46,7 +46,7 @@ n/a (see the [SRS](https://github.com/VSSSE/VSS-DOC/blob/master/SRS.md))
 
 ## 5. Logical View
 
-![MVC](https://github.com/VSSSE/VSS-DOC/tree/master/Images/MVC_Pattern.png")
+![ClassDiagram](https://github.com/VSSSE/VSS-DOC/blob/master/UML/MovieTunesClassDiagramAndroid.png)
 
 ### 5.1 Overview
 
