@@ -46,7 +46,7 @@ n/a (see the [SRS](https://github.com/VSSSE/VSS-DOC/blob/master/SRS.md))
 
 ## 5. Logical View
 
-![ClassDiagram](https://github.com/VSSSE/VSS-DOC/blob/master/UML/MovieTunesClassDiagramAndroid.png)
+![Class Diagram Android](https://github.com/VSSSE/VSS-DOC/blob/master/UML/MovieTunesClassDiagramAndroid.png)
 
 ### 5.1 Overview
 
@@ -66,7 +66,7 @@ n/a
 
 ## 9. Data View
 
-![DB Model](#)
+![DB Model](https://github.com/VSSSE/VSS-DOC/blob/master/DB/Diagramm1.png)
 
 The VSS web application uses a mySQL database, which is accessed by backend function calls.
 
