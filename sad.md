@@ -20,6 +20,10 @@ This Software Architecture Document applies to the complete VSS Project and the 
 |---------------------------------------------------|---------------|
 | [VSS Blog](https://vssse.wordpress.com/) |19.10.2017 |
 
+
+
+Here you find our [SRS](https://github.com/VSSSE/VSS-DOC/blob/master/SRS.md)
+
 ### 1.5 Overview
 
 This document contains the Architectural Representation, Goals and Constraints as well as the Logical, Deployment, Implementation and Data Views.
@@ -42,7 +46,7 @@ n/a (see the [SRS](https://github.com/VSSSE/VSS-DOC/blob/master/SRS.md))
 
 ## 5. Logical View
 
-![MVC](https://github.com/VSSSE/VSS-DOC/blob/master/UML/MovieTunesClassDiagramGenerated02.png)
+![MVC](https://github.com/VSSSE/VSS-DOC/tree/master/Images/MVC_Pattern.png")
 
 ### 5.1 Overview
 
