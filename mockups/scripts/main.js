@@ -21,9 +21,7 @@ function submitB() {
 
 function similar(a) {
     var result = document.querySelector(".site-results");
-    var aux = a;
-    var target = ".similar" + aux.substring(6, 7);
-    var actualTarget = document.querySelector(target);
+    var actualTarget = document.querySelector(".s" + a.substring(6, 7));
     result.remove();
     actualTarget.style.visibility = "visible";
 }
