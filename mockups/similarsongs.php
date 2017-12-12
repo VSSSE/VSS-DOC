@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/mockup-general.css">
 </head>
 
-<body>
+<body class="light">
     <div class="site light">
         <header class="site-header">
             <h1 class="light">MovieTunes</h1>
