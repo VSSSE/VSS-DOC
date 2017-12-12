@@ -16,7 +16,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
 ## Table of Contents
 
 - [Table of contents](#table-of-contents)
-- [1. Use-Case Playon Spotify](#1-use-case-look-up-similar-songs)
+- [1. Use-Case Play on Spotify](#1-use-case-look-up-similar-songs)
   - [1.1 Brief Description](#11-brief-description)
   - [1.2 Mockup](#12-mockup)
   - [1.3 Feature file](#13-feature-file)
@@ -56,7 +56,7 @@ n/a
 
 
 **Use Case Diagram**
-![UCD][] 
+![UCD3][] 
   
 
 
@@ -118,6 +118,7 @@ The case of failure occurs, when the user cannot be forwarded to the Spotify web
 n/a
 
 <!-- Picture-Links: -->
+[UCD3]:https://github.com/VSSSE/VSS-DOC/blob/master/Images/UC_Play_on%20Spotify.png "Overall Use Case Diagram"
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC2_Look_up_similar_songs.png "Overall Use Case Diagram"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_similar_songs.png "Soundtracks list"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_similar_songs.png "Feature file"
