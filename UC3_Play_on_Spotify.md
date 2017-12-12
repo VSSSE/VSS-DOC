@@ -39,7 +39,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
 ## 1. Use-Case Play on Spotify
 ### 1.1 Brief Description
 
-The user can choose one song from the listed soundtracks and select it by clicking/tapping it and presses the "Play on Spotify" button. The user will get forwarded to the Spotify webpage.
+The user can choose one song from the listed soundtracks and select it by clicking/tapping it and press the "Play on Spotify" button. The user will get forwarded to the Spotify webpage.
 
 
 ### 1.2 Mockup
@@ -89,9 +89,9 @@ n/a
 ## 4. Preconditions
 
 
-### 4.1 Need to be on the soundtracks list view
+### 4.1 Need to be on the similar songs list view
 
-The user has to be on a soundtracks list view. The actor needs to choose a song and to press the Playon Spotify button toget forwarded to the Spotify website. form for soundtracks to reach this page.
+The user has to be on the similar songs list view. The actor needs to choose a song and to press the Play on Spotify button to get forwarded to the Spotify website.
 
 
 ## 5. Postconditions
