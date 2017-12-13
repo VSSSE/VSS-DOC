@@ -1,6 +1,6 @@
 # Team VSS - MovieTunes
 
-# Use-Case Specification: Play on Spotify
+# Use-Case Specification: Listen to s song on spotify
 
 <!--
 Version 0.1
@@ -39,7 +39,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
 ## 1. Use-Case Play on Spotify
 ### 1.1 Brief Description
 
-The user can choose one song from the listed soundtracks and select it by clicking/tapping it and press the "Play on Spotify" button. The user will get forwarded to the Spotify webpage.
+The user can choose one song from the listed soundtracks and select it by clicking/tapping it and press the "Play on Spotify" button or click on a list entry on the webapp. The user will get forwarded to the Spotify webpage.
 
 
 ### 1.2 Mockup
@@ -91,7 +91,7 @@ n/a
 
 ### 4.1 Need to be on the similar songs list view
 
-The user has to be on the similar songs list view. The actor needs to choose a song and to press the Play on Spotify button to get forwarded to the Spotify website.
+The user has to be on the similar songs list view. The actor needs to choose a song and to press on the Play on Spotify button or to click on a list entry in case of the webapp to get forwarded to the Spotify website.
 
 
 ## 5. Postconditions
@@ -118,7 +118,6 @@ The case of failure occurs, when the user cannot be forwarded to the Spotify web
 n/a
 
 <!-- Picture-Links: -->
-[UCD3]:https://github.com/VSSSE/VSS-DOC/blob/master/Images/UC3.png "Overall Use Case Diagram"
-[UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC2_Look_up_similar_songs.png "Overall Use Case Diagram"
+[UCD3]:https://github.com/VSSSE/VSS-DOC/blob/master/UML/UC3_Listen_to_a_song_on_spotify.png "Listen to a song on spotify"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_similar_songs.png "Soundtracks list"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_similar_songs.png "Feature file"
