@@ -70,6 +70,49 @@ n/a
 
 The VSS web application uses a mySQL database, which is accessed by backend function calls.
 
+```
+#To generate the song table we use this comand
+mix phx.gen.schema Song songs titel:string genre:string artists:string albums:string youtube_link:string spotify_link:string year:date movie:string
+
+Which generates this table:
+                                            Tabelle »public.songs«
+    Spalte    |             Typ             | Sortierfolge | NULL erlaubt? |            Vorgabewert            
+--------------+-----------------------------+--------------+---------------+-----------------------------------
+ id           | bigint                      |              | not null      | nextval('songs_id_seq'::regclass)
+ titel        | character varying(255)      |              | not null      | 
+ genre        | character varying(255)      |              |               | 
+ artists      | character varying(255)      |              |               | 
+ albums       | character varying(255)      |              |               | 
+ youtube_link | character varying(255)      |              |               | 
+ spotify_link | character varying(255)      |              |               | 
+ year         | timestamp without time zone |              |               | 
+ movie        | character varying(255)      |              |               | 
+ inserted_at  | timestamp without time zone |              | not null      | 
+ updated_at   | timestamp without time zone |              | not null      | 
+Indexe:
+    "songs_pkey" PRIMARY KEY, btree (id)
+
+
+#To generate the issimilarTo table we use this comand
+mix phx.gen.schema Similar similar sIs:integer toS:integer
+
+Which generates this table:
+                                            Tabelle »public.similar«
+   Spalte    |             Typ             | Sortierfolge | NULL erlaubt? |             Vorgabewert             
+-------------+-----------------------------+--------------+---------------+-------------------------------------
+ id          | bigint                      |              | not null      | nextval('similar_id_seq'::regclass)
+ sIs         | integer                     |              | not null      | 
+ toS         | integer                     |              | not null      | 
+ inserted_at | timestamp without time zone |              | not null      | 
+ updated_at  | timestamp without time zone |              | not null      | 
+Indexe:
+    "similar_pkey" PRIMARY KEY, btree (id)
+
+
+```
+
+
+
 ## 10. Size and Performance
 
 n/a
