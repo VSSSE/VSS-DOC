@@ -114,7 +114,7 @@ This SRS applies to the entire MovieTunes project. MovieTunes is a online servic
 | [Overall Use Case Diagram (OUCD)](https://github.com/VSSSE/VSS-DOC/blob/master/UML/UseCaseOverall.png) | 01.11.2017|
 | [UC1_Look_up_soundtracks](https://github.com/VSSSE/VSS-DOC/blob/master/UC1_Look_up_soundtracks.md) | 01.11.2017 |
 | [UC2_Look_up_similar_songs](https://github.com/VSSSE/VSS-DOC/blob/master/UC2_Look_up_similar_songs.md) | 01.11.2017|
-| [UC3_Listen_to_a_song_on_spotify](https://github.com/VSSSE/VSS-DOC/blob/master/UC3_Listen_to_a_song_on_spotify.md) | 012.12.2017|
+| [UC3_Listen_to_a_song_on_spotify](https://github.com/VSSSE/VSS-DOC/blob/master/UC3_Listen_to_a_song_on_spotify.md) | 12.12.2017|
 | [SAD](https://github.com/VSSSE/VSS-DOC/blob/master/sad.md) | 30.11.2017|
 
 ### 1.5 Overview
