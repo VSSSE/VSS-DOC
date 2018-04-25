@@ -119,5 +119,5 @@ n/a
 
 <!-- Picture-Links: -->
 [UCD3]:https://github.com/VSSSE/VSS-DOC/blob/master/UML/UC3_Listen_to_a_song_on_spotify.png "Listen to a song on spotify"
-[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_similar_songs.png "Soundtracks list"
+[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Listen_to_a_song_on_spotify.png "Mockup Listen to a song on spotify"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_similar_songs.png "Feature file"
