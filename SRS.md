@@ -198,7 +198,7 @@ After choosing a title, the user gets a list of recommendations based on the son
 -->
 #### 3.1.3 Look up movies for a given song title
 
-The user can enter a song title into a text field and confirm their input by pressing the appropriate button.
+The user can enter a song title into a text field and confirm the input by pressing the appropriate button.
 Then the user will get forwarded to the lookup page for movies.
 
 After pressing the appropriate button, the user receives a list of movies corresponding to the song title.
@@ -213,6 +213,8 @@ The user can choose one movie from the listed movies and select it by clicking/t
 The user can select a song by clicking it and choose the "Listen on Spotify" option. After that the user will be forwarded to the Spotify (www.spotify.com).
  
 #### 3.1.5 Listen to a song on Youtube
+
+The user can select a song by clicking it and choose the "Listen on Youtube" option. After that the user will be forwarded to the YouTube website (www.youtube.com).
 
 #### 3.1.6 Post a song title on social media
 
