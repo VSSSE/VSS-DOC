@@ -43,8 +43,7 @@ The user can choose one song from the listed soundtracks and select it by clicki
 
 
 ### 1.2 Mockup
-
-tbd
+![Mockup][] 
 
 ### 1.3 Feature file
 
@@ -56,6 +55,7 @@ n/a
 
 
 **Use Case Diagram**
+
 ![UCD3][] 
   
 
