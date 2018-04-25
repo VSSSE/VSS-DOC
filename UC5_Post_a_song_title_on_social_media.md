@@ -1,6 +1,6 @@
 # Team VSS - MovieTunes
 
-# Use-Case Post a song title on social media
+# Use-Case Specification: Post a song title on social media
 
 <!--
 Version 0.1
