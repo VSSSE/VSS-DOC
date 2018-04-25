@@ -144,7 +144,7 @@ A message will pop up to inform the user about that.
 n/a
 
 <!-- Picture-Links: -->
-[UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC5_Post_a_song_on_social_media.png "Overall Use Case Diagram - Post a song title on social media"
+[UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC5_Post_a_song_title_on_social_media.png "Overall Use Case Diagram - Post a song title on social media"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Post_a_song_title_on_social_media.png "Mockuo Post a song title on social media"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
 
