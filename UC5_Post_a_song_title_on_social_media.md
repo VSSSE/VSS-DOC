@@ -28,7 +28,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
 - [3. Special Requirements](#3-special-requirements)
   <!-- - [3.1 &lt; First Special Requirement &gt;](#31-placeholder) --> 
 - [4. Preconditions](#4-preconditions)
-  - [4.1 Need to be on a result page](#41-need-to-be-on-a-reuslt-page) 
+  - [4.1 Needs to be on a result page](#41-needs-to-be-on-a-reuslt-page) 
 - [5. Postconditions](#5-postconditions)
   - [5.1 Success case](#51-success-case) 
   - [5.2 No sharing options are available](#52-no-sharing-options-are-available) 
@@ -112,7 +112,7 @@ n/a
 [A precondition of a use case is the state of the system that must be present prior to a use case being performed.]
 -->
 
-### 4.1 Need to be on a result page
+### 4.1 Needs to be on a result page
  
 The user is on a result page and see a list of songs.
 
