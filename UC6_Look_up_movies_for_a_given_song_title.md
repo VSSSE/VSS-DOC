@@ -141,6 +141,6 @@ n/a
 
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC1_Look_up_soundtracks.png "Overall Use Case Diagram"
-[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_soundtracks.png "Search form for soundtracks"
+[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_movies_for_a_given_song_title.png "Mockup Look up movies for a given song title"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
 

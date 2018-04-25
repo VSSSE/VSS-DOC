@@ -145,6 +145,6 @@ n/a
 
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC1_Look_up_soundtracks.png "Overall Use Case Diagram"
-[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_soundtracks.png "Search form for soundtracks"
+[Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Post_a_song_title_on_social_media.png "Mockuo Post a song title on social media"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
 
