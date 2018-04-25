@@ -18,3 +18,10 @@ function submitB() {
     start.remove();
     result.style.visibility = "visible";
 }
+
+function similar(a) {
+    var result = document.querySelector(".site-results");
+    var actualTarget = document.querySelector(".s" + a.substring(6, 7));
+    result.remove();
+    actualTarget.style.visibility = "visible";
+}
