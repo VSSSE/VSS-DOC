@@ -125,7 +125,7 @@ In the case of success, the user gets forwarded to youtube.
 
 ### 5.2 No soundtracks found
 
-The case of failure occurs, when the foreign API don't find the song on Youtube. The user is shown an informative message.
+The case of failure occurs, when the foreign API doesn't find the song on Youtube. The user is shown an informative message.
 
 
 ## 6. Extension Points
