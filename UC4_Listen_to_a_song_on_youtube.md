@@ -141,7 +141,7 @@ The case of failure occurs, when the foreign API don't find the song on Youtube.
 n/a
 
 <!-- Picture-Links: -->
-[UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC1_Look_up_soundtracks.png "Overall Use Case Diagram"
+[UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC4_Listen_to_a_song_on_youtube.png "Use Case Diagram - Listen to a song on youtube"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Listen_to_a_song_on_youtube.png "Mockup Listen to a song on youtube"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
 
