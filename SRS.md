@@ -118,7 +118,7 @@ This SRS applies to the entire MovieTunes project. MovieTunes is a online servic
 | [SAD](https://github.com/VSSSE/VSS-DOC/blob/master/sad.md) | 30.11.2017|
 | [UC4_Listen_to_a_song_on_youtube](https://github.com/VSSSE/VSS-DOC/blob/master/UC4_Listen_to_a_song_on_youtube.md) | 25.04.2018|
 | [UC5_Post_a_song_title_on_social_media](https://github.com/VSSSE/VSS-DOC/blob/master/UC5_Post_a_song_title_on_social_media.md) | 25.04.2018|
-| [UC6_Look_up_movies_for_a_given_song](https://github.com/VSSSE/VSS-DOC/blob/master/UC6_Look_up_movies_for_a_given_song.md) | 25.04.2018|
+| [UC6_Look_up_movies_for_a_given_song title](https://github.com/VSSSE/VSS-DOC/blob/master/UC6_Look_up_movies_for_a_given_song_title.md) | 25.04.2018|
 
 ### 1.5 Overview
 <!--
@@ -211,7 +211,7 @@ After pressing the appropriate button, the user receives a list of movies corres
 -->
 The user can choose one movie from the listed movies and select it by clicking/tapping it. The user will get forwarded to the lookup page for soundtracks.
 
-[Look at the details.](https://github.com/VSSSE/VSS-DOC/blob/master/UC6_Look_up_movies_for_a_given_song.md)
+[Look at the details.](https://github.com/VSSSE/VSS-DOC/blob/master/UC6_Look_up_movies_for_a_given_song_title.md)
 
 
 #### 3.1.4 Listen to a song on Spotify
