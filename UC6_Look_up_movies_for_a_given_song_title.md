@@ -34,6 +34,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
   - [5.2 No movies found](#52-no-movies-found) 
 - [6. Extension Points](#6-extension-points)
 <!--  - [6.1 &lt; Name of Extension Point &gt;](#61-placeholder) -->
+- [7. Function Points](#7-function-points)
 
 <!--
 [The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties.
@@ -140,8 +141,17 @@ The case of failure occurs, when the foreign API don't find any movies. The user
 
 n/a
 
+
+## 7. Function Points
+
+We calculated the function points with the following table from TINY TOOLS. The Use Case Register has
+22 points.
+![Function][] 
+
+
+
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC6_Look_up_movies_for_a_given_song_title.png "Overall Use Case Diagram - Look up movies for a given song title"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_movies_for_a_given_song_title.png "Mockup Look up movies for a given song title"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
-
+[Function]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/FP_UC6.PNG "Function Point table"

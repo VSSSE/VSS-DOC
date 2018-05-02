@@ -33,6 +33,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
   - [5.2 No similar songs found](#52-no-similar-songs-found) 
  - [6. Extension Points](#6-extension-points)
 <!--  - [6.1 &lt; Name of Extension Point &gt;](#61-placeholder) -->
+- [7. Function Points](#7-function-points)
 
 
 
@@ -117,7 +118,17 @@ The case of failure occurs, when the user cannot be forwarded to the Spotify web
 
 n/a
 
+
+## 7. Function Points
+
+We calculated the function points with the following table from TINY TOOLS. The Use Case Register has
+30 points.
+![Function][] 
+
+
+
 <!-- Picture-Links: -->
 [UCD3]:https://github.com/VSSSE/VSS-DOC/blob/master/UML/UC3_Listen_to_a_song_on_spotify.png "Listen to a song on spotify"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Listen_to_a_song_on_spotify.png "Mockup Listen to a song on spotify"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_similar_songs.png "Feature file"
+[Function]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/FP_UC3.PNG "Function Point table"

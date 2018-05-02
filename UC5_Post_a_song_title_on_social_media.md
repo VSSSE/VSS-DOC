@@ -34,6 +34,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
   - [5.2 No sharing options are available](#52-no-sharing-options-are-available) 
 - [6. Extension Points](#6-extension-points)
 <!--  - [6.1 &lt; Name of Extension Point &gt;](#61-placeholder) -->
+- [7. Function Points](#7-function-points)
 
 <!--
 [The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties.
@@ -135,7 +136,7 @@ A message will pop up to inform the user about that.
 ## 6. Extension Points
 
 
-<!--[Extension points of the use case.]
+<!-- [Extension points of the use case.]
 
 ### 6.1 &lt;Name of Extension Point&gt;
 
@@ -144,8 +145,17 @@ A message will pop up to inform the user about that.
 
 n/a
 
+
+## 7. Function Points
+
+We calculated the function points with the following table from TINY TOOLS. The Use Case Register has
+25 points.
+![Function][] 
+
+
+
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC5_Post_a_song_title_on_social_media.png "Overall Use Case Diagram - Post a song title on social media"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Post_a_song_title_on_social_media.png "Mockuo Post a song title on social media"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
-
+[Function]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/FP_UC5.PNG "Function Point table"

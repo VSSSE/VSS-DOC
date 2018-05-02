@@ -34,6 +34,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
   - [5.2 Not found on youtube](#52-not-found-on-youtube) 
 - [6. Extension Points](#6-extension-points)
 <!--  - [6.1 &lt; Name of Extension Point &gt;](#61-placeholder) -->
+- [7. Function Points](#7-function-points)
 
 <!--
 [The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties.
@@ -141,8 +142,17 @@ The case of failure occurs, when the foreign API don't find the song on Youtube.
 
 n/a
 
+
+## 7. Function Points
+
+We calculated the function points with the following table from TINY TOOLS. The Use Case Register has
+39 points.
+![Function][] 
+
+
+
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC4_Listen_to_a_song_on_youtube.png "Use Case Diagram - Listen to a song on youtube"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Listen_to_a_song_on_youtube.png "Mockup Listen to a song on youtube"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_soundtracks.png "Feature file"
-
+[Function]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/FP_UC4.PNG "Function Point table"

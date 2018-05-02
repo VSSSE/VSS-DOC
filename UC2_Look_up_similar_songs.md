@@ -33,6 +33,7 @@ This document is linked in the [SRS](https://github.com/VSSSE/VSS-DOC/blob/maste
   - [5.2 No similar songs found](#52-no-similar-songs-found) 
  - [6. Extension Points](#6-extension-points)
 <!--  - [6.1 &lt; Name of Extension Point &gt;](#61-placeholder) -->
+- [7. Function Points](#7-function-points)
 
 <!--
 [The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties.
@@ -140,7 +141,17 @@ The case of failure occurs, when the foreign API don't find any similar songs. T
 
 n/a
 
+
+## 7. Function Points
+
+We calculated the function points with the following table from TINY TOOLS. The Use Case Register has
+42 points.
+![Function][] 
+
+
 <!-- Picture-Links: -->
 [UCD]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/UML/UC2_Look_up_similar_songs.png "Overall Use Case Diagram"
 [Mockup]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/mockups/Look_up_similar_songs.png "Soundtracks list"
 [Feature]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/Images/Feature_Look_up_similar_songs.png "Feature file"
+[Function]: https://raw.githubusercontent.com/VSSSE/VSS-DOC/master/FP_UC2.PNG "Function Point table"
+
