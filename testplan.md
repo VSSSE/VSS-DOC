@@ -61,7 +61,7 @@ This Test plan for Project MovieTunes supports the following objectives:
 
 ### 1.2 Scope
 
-Project MovieTunes tested using unit tests as a testing method to ensure that the implementation is working 
+Project MovieTunes tested using unit tests and function tests as testing methods to ensure that the implementation is working 
 correctly throughout the development.
 
 ### 1.3 Intended Audience
@@ -123,15 +123,15 @@ The following list identifies the tested parts of our application. Tests will co
 
 - Frontend (Java/Android)
 - Business logic (Java)  
-- Database operations (Java)
+- Database operations (Java) 
 
 ## 4. Outline of Planned Tests
 
 
 ### 4.1 Outline of Test Inclusions
 
-- Logical functionality will be tested with unit tests.
-- Database Integrity will be tested with unit tests.
+- Logical functionality will be tested with unit tests and function tests.
+- Database Integrity will be tested with function tests.
 
 
 ### 4.2 Outline of Other Candidates for Potential Inclusion
@@ -163,7 +163,7 @@ be a good way to find bugs and problems in software early and reliable.
 |Technique Objective  	| Exercise database access and observe behaviour |
 |Technique 		|  Execute queries and observe desired results with other queries |
 |Oracles 		|  Queries will store and delete data and it will be represented in the database   |
-|Required Tools 	| JUnit	 |
+|Required Tools 	| Espresso	 |
 |Success Criteria	|    All tests pass         |
 |Special Considerations	|     -          |
 
@@ -186,7 +186,7 @@ n/a
 |Technique Objective  	| Exercise the most scenarios to observe and log standards conformance and target behavior |
 |Technique |  Execute each use-case scenario’s individual use-case flows or functions and features, using valid and invalid data |
 |Oracles |  user enter valid data, for example a valid username and a valid password   |
-|Required Tools | Selenium, Cucumber	 |
+|Required Tools | Selenium, Espresso, Cucumber	 |
 |Success Criteria |    All tests pass         |
 |Special Considerations	|     -          |
 
@@ -243,7 +243,7 @@ Occurring errors during the build terminate the test cycle.
 
 | Continuous Integration Service                              | Badge |
 |-------------------------------------------------------------|:-----:|
-| [Travis CI](https://travis-ci.org/C0D3D3V | [![Build Status](https://travis-ci.org/C0D3D3V?branch=CreateJUintTests)](https://travis-ci.org/C0D3D3V) |
+| [Circle CI](https://circleci.com/gh/VSSSE/VSS-Mobile) | [![Build Status](https://circleci.com/gh/VSSSE/VSS-Mobile.svg?style=svg)](https://circleci.com/gh/VSSSE/VSS-Mobile) |
 
 
 
@@ -276,7 +276,7 @@ n/a
 
 ## 8.Testing Workflow
 When an developer adds new functionality to the project, he also writes an appropriate Unit-Test covering the functionality. 
-All unit tests are then automatically executed on a build.
+All unit tests and function tests are then automatically executed on a build.
 The developer can also test parts of the new code by running the tests from his IDE.
 
 ## 9. Environmental Needs
@@ -298,7 +298,7 @@ The test plan also lists the non-human resources.
 | Tool Category or Type | Tool Brand Name                              |
 |-----------------------|----------------------------------------------|
 | Code Hoster           | [github.com](http://github.com/)             |
-| CI Service            | [Travis CI](http://travis-ci.org/)           |
+| CI Service            | [Dircle CI](https://circleci.com/)          |
 ### 9.4 Test Environment Configurations
 The database needs to be set up.
 
@@ -323,7 +323,7 @@ All necessary roles are staffed by members of the project team.
 | Iteration starts |  14.05.2018 | 14.05.2017 | End of Project |  |
 |>= 20% Test Coverage | 30.05.2018||
 |>= 30% Test Coverage | 10.06.2018||
-|>= 50% Test Coverage | 20.06.2018||
+|>= 40% Test Coverage | 20.06.2018||
 |Tests integrated in CI | 30.05.2018 | 10.06.2018 | End of Project ||
 
 # 12. Risks, Dependencies, Assumptions, and Constraints
