@@ -50,7 +50,7 @@ The MVC architectural pattern allows us separate functionality and define specif
 
 ### 5.1 Overview
 
-![High Level Overview](#) 
+![High Level Overview](https://github.com/VSSSE/VSS-DOC/blob/master/Images/highlevel.png) 
 
 ## 6. Process View
 
@@ -58,7 +58,8 @@ n/a
 
 ## 7. Deployment View
 
-![Deployment View](#)
+![Deployment View](https://github.com/VSSSE/VSS-DOC/blob/master/Images/deployview.png))
+
 
 ## 8. Implementation View
 
