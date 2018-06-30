@@ -227,12 +227,16 @@ The user can share a looked up song on social media. The device options of shari
 
 
 #### 3.1.7 Get lyrics of a song
+Optional use case. tbd
 
 #### 3.1.8 Get stats for a specific movie
+tbd
 
 #### 3.1.9 Get stats for a specific country
+tbd
 
 #### 3.1.10 Get a ranking list
+tbd
 
 
 
