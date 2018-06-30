@@ -33,12 +33,12 @@ This document contains the Architectural Representation, Goals and Constraints a
 The VSS project will use the MVC architecture. Both frontend choices strongly suggest doing so.
 The following image will illustrate the basic idea behind the standard elements Model, View and Controller.
 
-![MVC pattern](https://github.com/VSSSE/VSS-DOC/tree/master/Images/MVC_Pattern.png)
+![MVC pattern](https://github.com/VSSSE/VSS-DOC/blob/master/Images/MVC_Pattern.png)
 
 ## 3. Architectural Goals and Constraints
 
-The project is focussed around the API our backend, implemented in Elixir using the Phoenix web framework, provides. The frontend is built in Java (Android) and Elm (Web).
-As both Elm end Elixir are functional programming languages and Java is object oriented, our data has to be structured in a way easily readable by any client.
+The project is focused around the API The frontend is built in Java (Android).
+The MVC architectural pattern allows us separate functionality and define specified tasksfor each partof our application. 
 
 ## 4. Use-Case View
 
@@ -68,7 +68,7 @@ n/a
 
 ![DB Model](https://github.com/VSSSE/VSS-DOC/blob/master/DB/Diagramm1.png)
 
-The VSS web application uses a mySQL database, which is accessed by backend function calls.
+The VSS web application uses a mySQL database, which is accessed by internal calls.
 
 ```
 #To generate the song table we use this comand

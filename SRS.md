@@ -86,7 +86,7 @@ The purpose of this document is to fully describe the external behaviour of the 
 [A brief description of the software application that the SRS applies to, the feature or other subsystem grouping, what Use-Case model(s) it is associated with, and anything else that is affected or influenced by this document.]
 -->
 
-This SRS applies to the entire MovieTunes project. MovieTunes is a online service allowing users to find music based on movie soundtracks. MovieTunes will be realized as both an Android and web app. Its subsystems and features are outlined in the [Overall Description](#2-overall-description)
+This SRS applies to the entire MovieTunes project. MovieTunes is a mobile application allowing users to find music based on movie soundtracks or movies a user- specified song was used in. MovieTunes will be realized as an Android app. Its subsystems and features are outlined in the [Overall Description](#2-overall-description)
 
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
@@ -138,7 +138,7 @@ The remainder of this document contains the following: Product functionality is 
 •	requirements subsets]
 -->
 
-MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. It consists of a back end written in Elixir using the Phoenix framework, an Android app written in Java, and a web app written in Elm.
+MovieTunes is a service that can be used to find music similar to a user-specified movie soundtrack. The Android application iswritten in Java, the search results are saved in an internal database. Movie and soundtrack search is based on API communication (several API from deffrent proveders are used).
 
 **Overall Use Case Diagram**
 ![UCD][] 
@@ -158,12 +158,6 @@ Where application development tools, such as requirements tools, modeling tools,
 
 <!---
 #### 3.1.1 Target System
-The target server for the web app must fit the following requirements:
-- Web server (Nginx)
-- Elixir
-- min. 1GB RAM
-- min. 1 CPU Core @1.8Ghz
-- min. 10GB HDD
 -->
 <!---
 The target android device for the andorid app must fit the following requirements:
@@ -171,7 +165,7 @@ The target android device for the andorid app must fit the following requirement
 -->
 
 <!---
-#### 3.1.1 Search form for soundtracks by movie name
+
 -->
 
 #### 3.1.1 Look up soundtracks for a given movie name
@@ -184,15 +178,12 @@ After pressing the "Search" button, the user  get a list of soundtracks used in 
 
 [Look at the details.](https://github.com/VSSSE/VSS-DOC/blob/master/UC1_Look_up_soundtracks.md)
 
-<!---
-#### 3.1.3 Choose a soundtrack from a list
--->
 
 #### 3.1.2 Look up similar songs to a chosen song
 
 The user can choose one song from the listed soundtracks and select it by clicking/tapping it. The user will get forwarded to the lookup page for similar songs.
 
-After choosing a title, the user gets a list of recommendations based on the song chosen. 
+After choosing a title, the user gets a list of recommendations based on the song chosen. The recommended songs are selected based on popularity, genre, artist. These information is combined to get best results.
 
 [Look at the details.](https://github.com/VSSSE/VSS-DOC/blob/master/UC2_Look_up_similar_songs.md)
  
@@ -204,7 +195,7 @@ After choosing a title, the user gets a list of recommendations based on the son
 The user can enter a song title into a text field and confirm the input by pressing the appropriate button.
 Then the user will get forwarded to the lookup page for movies.
 
-After pressing the appropriate button, the user receives a list of movies corresponding to the song title.
+After pressing the button, the user receives a list of movies corresponding to the song title.
 
 <!---
 #### 3.1.7 Choose a movie from a list
@@ -236,12 +227,16 @@ The user can share a looked up song on social media. The device options of shari
 
 
 #### 3.1.7 Get lyrics of a song
+Optional use case. tbd
 
 #### 3.1.8 Get stats for a specific movie
+tbd
 
 #### 3.1.9 Get stats for a specific country
+tbd
 
 #### 3.1.10 Get a ranking list
+tbd
 
 
 
@@ -316,11 +311,9 @@ tbd
 #### 3.6.1 Technologies
 
 We will use the following technologies:
-- Elexir for the back end
 - Java and Android Studio for Android development
-- YouTrack
+- YouTrackfor scrumming
 - Git for version control
-- HTML5, CSS3, JavaScript, partially compiled from Elm.
 
 ### 3.7 On-line User Documentation and Help System Requirements
 
