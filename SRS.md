@@ -341,7 +341,7 @@ n/a
 [Describe the user interfaces that are to be implemented by the software.]
 -->
 
-Users can access the system via Andriod app or web interface. Mockups for their design are tbd
+Users can access the system via Andriod app. Mockups for their design are tbd
 
 #### 3.9.2 Hardware Interfaces
 <!--
