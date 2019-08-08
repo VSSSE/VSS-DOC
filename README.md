@@ -1,2 +1,2 @@
 # VSS-DOC
-This is the reposetory for the documentation of our project.
+This is the repository for the documentation of our project.
